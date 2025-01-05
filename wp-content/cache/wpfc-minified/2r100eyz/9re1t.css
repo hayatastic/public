@@ -1,0 +1,40 @@
+ul.page-numbers {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+margin: auto;
+padding: 0;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+margin-top: 5rem;
+gap: 1.5rem 0.5rem;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+}
+ul.page-numbers li span.page-numbers.current {
+padding: 0.5rem;
+background: #efea3f;
+border: 1px solid #efea3f;
+}
+ul.page-numbers li a.page-numbers {
+padding: 0.5rem;
+border: 1px solid;
+text-decoration: none;
+-webkit-transition: 0.2s;
+transition: 0.2s;
+}
+ul.page-numbers li a.page-numbers:hover {
+background-color: #2892cf;
+color: #fff;
+}.breadcrumb-container {
+margin-top: 80px !important;
+padding-left: 5%;
+}
+.breadcrumb-container ol {
+padding: 0;
+}
+.breadcrumb-container ol a {
+padding: 0 !important;
+margin: 0 !important;
+}

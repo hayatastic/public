@@ -1,0 +1,274 @@
+# Translation of Plugins - XO Featured Image Tools - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - XO Featured Image Tools - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-16 08:08:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - XO Featured Image Tools - Stable (latest release)\n"
+
+#: admin.php:521
+msgid "Aborted."
+msgstr "中止しました。"
+
+#: admin.php:520
+msgid "Aborted due to an error that cannot continue."
+msgstr "続行不可能なエラーのため中止されました。"
+
+#: admin.php:909
+msgid "Comma-separated list of file names to exclude. Wildcards (\"*\", \"?\") are allowed."
+msgstr "除外するファイル名のカンマ区切りリスト。ワイルドカード (「*」、「?」) を使用できます。"
+
+#: admin.php:824
+msgid "Exclude specific file names"
+msgstr "特定のファイル名を除外"
+
+#: admin.php:959
+msgid "Synced Pattern content"
+msgstr "同期パターンの内容"
+
+#: admin.php:947
+msgid "Shortcode content"
+msgstr "ショートコードの内容"
+
+#: admin.php:827
+msgid "Synced Pattern"
+msgstr "同期パターン"
+
+#: admin.php:826
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: admin.php:821
+msgid "Options"
+msgstr "オプション"
+
+#: admin.php:1066
+msgid "Tools"
+msgstr "ツール"
+
+#: admin.php:1065
+msgid "Settings"
+msgstr "設定"
+
+#: admin.php:933
+msgid "Exclude draft post"
+msgstr "下書きを除外する"
+
+#: admin.php:98 admin.php:99
+msgid "XO Featured Image"
+msgstr "XO Featured Image"
+
+#: admin.php:593
+msgid ""
+"Deletes the featured images for all posts selected in post type.\n"
+"This action cannot be undone.\n"
+"Click 'Cancel' to go back, 'OK' to confirm the delete."
+msgstr ""
+"投稿タイプで選択した、すべての投稿のアイキャッチ画像を削除しようとしています。\n"
+"この操作は取り消すことができません。\n"
+"中止するには「キャンセル」を、削除するには「OK」をクリックしてください。"
+
+#: admin.php:592
+msgid "Delete featured images"
+msgstr "アイキャッチ画像を削除"
+
+#: admin.php:589
+msgid "Deletes the featured image for all posts selected in the post type. The images themselves will not be deleted from the media."
+msgstr "投稿タイプで選択した、すべての投稿のアイキャッチ画像を削除します。画像自体はメディアから削除されません。"
+
+#: admin.php:585
+msgid "Batch deletion of featured images"
+msgstr "アイキャッチ画像の一括削除"
+
+#: admin.php:568
+msgid "Batch generation of featured images"
+msgstr "アイキャッチ画像の一括生成"
+
+#: admin.php:486 admin.php:525
+msgid "&laquo; Back to Tools page"
+msgstr "&laquo; ツールページに戻る"
+
+#. translators: %s: Post type.
+#: admin.php:485
+msgid "\"%s\" with no featured image set was not found."
+msgstr "アイキャッチ画像が設定されていない「%s」が見つかりませんでした。"
+
+#: admin.php:462
+msgid "Failed to delete."
+msgstr "削除に失敗しました。"
+
+#: admin.php:459
+msgid "Deleted."
+msgstr "削除しました。"
+
+#: admin.php:897
+msgid "px or less"
+msgstr "px 以下"
+
+#: admin.php:823
+msgid "Exclude small image"
+msgstr "小さい画像を除外"
+
+#. Author of the plugin
+#: xo-featured-image-tools.php
+msgid "Xakuro"
+msgstr "Xakuro"
+
+#: admin.php:924
+msgid "Clear Image"
+msgstr "画像をクリア"
+
+#: admin.php:923
+msgid "Default Image"
+msgstr "デフォルト画像"
+
+#: admin.php:923
+msgid "Select Image"
+msgstr "画像を選択"
+
+#: admin.php:825
+msgid "Default image"
+msgstr "デフォルト画像"
+
+#: admin.php:579
+msgid "To set the default image, specify the default image from the setting page."
+msgstr "デフォルト画像を設定する場合は、設定ページよりデフォルト画像を指定してください。"
+
+#: admin.php:577
+msgid "Use the default image"
+msgstr "デフォルト画像を使用する"
+
+#. Description of the plugin
+#: xo-featured-image-tools.php
+msgid "Automatically generates the featured image from the image of the post."
+msgstr "投稿の画像からアイキャッチ画像を自動生成します。"
+
+#: admin.php:870
+msgid "Please select the post type that automatically generates featured images."
+msgstr "アイキャッチ画像を自動生成する投稿タイプを選択してください。"
+
+#: admin.php:848
+msgid "Please select the post type to display featured image item."
+msgstr "アイキャッチ画像項目を表示する投稿タイプを選択してください。"
+
+#: admin.php:822
+msgid "External image"
+msgstr "外部画像"
+
+#: admin.php:819
+msgid "Automatically generated"
+msgstr "自動生成"
+
+#: admin.php:582
+msgid "Generate featured image"
+msgstr "アイキャッチ画像を生成"
+
+#: admin.php:573 admin.php:883
+msgid "Also applies to external images (images other than attachment files)"
+msgstr "外部画像（添付ファイル以外の画像）も対象とする"
+
+#: admin.php:554
+msgid "Post type: "
+msgstr "投稿タイプ: "
+
+#. Author URI of the plugin
+#: xo-featured-image-tools.php
+msgid "https://xakuro.com/"
+msgstr "https://xakuro.com/"
+
+#. Plugin URI of the plugin
+#: xo-featured-image-tools.php
+msgid "https://xakuro.com/wordpress/"
+msgstr "https://xakuro.com/wordpress/"
+
+#. Plugin Name of the plugin
+#: xo-featured-image-tools.php
+msgid "XO Featured Image Tools"
+msgstr "XO Featured Image Tools"
+
+#: admin.php:818
+msgid "Edit Post"
+msgstr "投稿の編集"
+
+#: admin.php:816
+msgid "Featured Image Item"
+msgstr "アイキャッチ画像項目"
+
+#: admin.php:815
+msgid "Post List"
+msgstr "投稿一覧"
+
+#: admin.php:799
+msgid "XO Featured Image Tools Settings"
+msgstr "XO Featured Image Tools 設定"
+
+#: admin.php:769
+msgid "Not set"
+msgstr "未設定"
+
+#: admin.php:90 admin.php:91 admin.php:768
+msgid "Featured Image"
+msgstr "アイキャッチ画像"
+
+#: admin.php:731
+msgid "Image"
+msgstr "画像"
+
+#. translators: %s: Error count.
+#: admin.php:541
+msgid "Failure: %s"
+msgstr "失敗: %s"
+
+#. translators: %s: Success count.
+#: admin.php:539
+msgid "Success: %s"
+msgstr "成功: %s"
+
+#. translators: %s: Post count.
+#: admin.php:537
+msgid "Total: %s"
+msgstr "合計: %s"
+
+#. translators: %s: Post type.
+#: admin.php:535
+msgid "Post Type: %s"
+msgstr "投稿タイプ: %s"
+
+#: admin.php:533
+msgid "Status"
+msgstr "ステータス"
+
+#: admin.php:532
+msgid "Stop"
+msgstr "中止"
+
+#: admin.php:528
+msgid "It may take some time. Please do not move from this page until it is completed."
+msgstr "時間が掛かる場合があります。完了するまで、このページから移動しないでください。"
+
+#. translators: %s: Failure message.
+#: admin.php:519
+msgid "Completed. %s failed."
+msgstr "完了しました。%s 件の失敗があります。"
+
+#: admin.php:517
+msgid "Completed. There is no failure."
+msgstr "完了しました。失敗はありません。"
+
+#: admin.php:516
+msgid "Abort..."
+msgstr "中止しています..."
+
+#. translators: 1: Post title, 2: Post id.
+#: admin.php:411
+msgid "\"%1$s\" (ID %2$d) failed."
+msgstr "\"%1$s\" (ID %2$d) は失敗しました。"
+
+#: admin.php:442
+msgid "Featured Image Tools"
+msgstr "アイキャッチ画像ツール"

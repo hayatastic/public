@@ -1,0 +1,11 @@
+.breadcrumb-container {
+margin-top: 80px !important;
+padding-left: 5%;
+}
+.breadcrumb-container ol {
+padding: 0;
+}
+.breadcrumb-container ol a {
+padding: 0 !important;
+margin: 0 !important;
+}

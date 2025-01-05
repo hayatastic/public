@@ -1,0 +1,177 @@
+# Translation of Plugins - wp_head() cleaner - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - wp_head() cleaner - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-17 19:12:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - wp_head() cleaner - Stable (latest release)\n"
+
+#: wp-head-cleaner.php:164
+msgid "Robots image preview"
+msgstr "検索ロボット向け画像プレビュー"
+
+#: wp-head-cleaner.php:165
+msgid "Don't print tags for web robots image preview directive."
+msgstr "検索用ウェブ巡回ロボット向けに画像プレビューの指示を出力しない。"
+
+#: wp-head-cleaner.php:235
+msgid "Settings"
+msgstr "設定項目"
+
+#: wp-head-cleaner.php:140
+msgid "oEmbed tags"
+msgstr "oEmbed タグ"
+
+#: wp-head-cleaner.php:148
+msgid "oEmbed scripts"
+msgstr "oEmbed スクリプト"
+
+#: wp-head-cleaner.php:149
+msgid "Don't print scripts for the oEmbed discover mechanism."
+msgstr "oEmbed 検出用のスクリプトを出力しない。"
+
+#: wp-head-cleaner.php:157
+msgid "Don't print tags for browser pre-fetching, pre-rendering, and pre-connecting hints."
+msgstr "ブラウザ向けの先読み、事前描画、事前接続の示唆を出力しない。"
+
+#: wp-head-cleaner.php:156
+msgid "Resource hints"
+msgstr "リソースの示唆"
+
+#. Author URI of the plugin
+msgid "http://jwilsson.com/"
+msgstr "http://jwilsson.com/"
+
+#. Author of the plugin
+msgid "Jonathan Wilsson"
+msgstr "Jonathan Wilsson"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wp-head-cleaner/"
+msgstr "https://ja.wordpress.org/plugins/wp-head-cleaner/"
+
+#. Plugin Name of the plugin
+#: wp-head-cleaner.php:207
+msgid "wp_head() cleaner"
+msgstr "wp_head() cleaner"
+
+#: wp-head-cleaner.php:124
+msgid "Emoji styles"
+msgstr "Emoji 用スタイル"
+
+#: wp-head-cleaner.php:125
+msgid "Don't print styles for emoji support."
+msgstr "Emoji 対応用のスタイルを出力しない。"
+
+#: wp-head-cleaner.php:116
+msgid "Emoji scripts"
+msgstr "Emoji 用スクリプト"
+
+#: wp-head-cleaner.php:117
+msgid "Don't print scripts for emoji support."
+msgstr "Emoji 対応用のスクリプトを出力しない。"
+
+#: wp-head-cleaner.php:132
+msgid "REST API"
+msgstr "REST API"
+
+#: wp-head-cleaner.php:108
+msgid "Other feeds, for example category feeds"
+msgstr "ほかのフィード、カテゴリーフィードなど"
+
+#: wp-head-cleaner.php:109
+msgid "Don't print links to other feeds, for example categories."
+msgstr "カテゴリーなど、ほかのフィードへのリンクを出力しない。"
+
+#: wp-head-cleaner.php:101
+msgid "Don't print links for the posts and comments feeds."
+msgstr "投稿とコメント用のフィードを出力しない。"
+
+#: wp-head-cleaner.php:100
+msgid "Post and Comment Feed"
+msgstr "投稿とコメント用フィード"
+
+#: wp-head-cleaner.php:93
+msgid "Don't print post canonical link."
+msgstr "投稿の canonical リンクを出力しない。"
+
+#: wp-head-cleaner.php:92
+msgid "Canonical links"
+msgstr "canonical リンク"
+
+#: wp-head-cleaner.php:44
+msgid "Windows Live Writer"
+msgstr "Windows Live Writer"
+
+#: wp-head-cleaner.php:45
+msgid "Don't print tags used by Windows Live Writer."
+msgstr "Windows Live Writer が利用するタグを出力しない。"
+
+#: wp-head-cleaner.php:52
+msgid "WordPress generator meta tag"
+msgstr "WordPress の generator メタタグ"
+
+#. Description of the plugin
+msgid "Remove unused tags from wp_head() output."
+msgstr "wp_head() の出力から不要なタグを除去します。"
+
+#: wp-head-cleaner.php:267
+msgid "Check the tags you wish to remove."
+msgstr "削除したいタグにチェックを入れてください。"
+
+#: wp-head-cleaner.php:206
+msgid "Options for wp_head() cleaner"
+msgstr "wp_head() cleaner のオプション"
+
+#: wp-head-cleaner.php:37
+msgid "Don't print tags for the XML-RPC discover mechanism."
+msgstr "XML-RPC 検出用のタグを出力しない。"
+
+#: wp-head-cleaner.php:141
+msgid "Don't print tags for the oEmbed discover mechanism."
+msgstr "oEmbed 検出用のタグを出力しない。"
+
+#: wp-head-cleaner.php:133
+msgid "Don't print REST API endpoint tags."
+msgstr "REST API のエンドポイントとなるタグを出力しない。"
+
+#: wp-head-cleaner.php:84
+msgid "Post shortlinks"
+msgstr "投稿の shortlink"
+
+#: wp-head-cleaner.php:85
+msgid "Don't print post short links."
+msgstr "投稿の shortlink (投稿 ID を利用) を出力しない。"
+
+#: wp-head-cleaner.php:53
+msgid "Don't print the WordPress version."
+msgstr "利用中の WordPress のバージョンを出力しない。"
+
+#: wp-head-cleaner.php:76
+msgid "Post Relational Links - Previous and Next"
+msgstr "投稿の関連リンク - prev と next"
+
+#: wp-head-cleaner.php:77
+msgid "Don't print relational links for the posts adjacent to the current post."
+msgstr "現在の投稿に隣接する投稿への関連リンクを出力しない。"
+
+#: wp-head-cleaner.php:61
+msgid "Don't print relational link for the first post."
+msgstr "最初の投稿に関連リンクを出力しない。"
+
+#: wp-head-cleaner.php:60
+msgid "Post Relational Links - Start"
+msgstr "記事の関連リンク - Start"
+
+#: wp-head-cleaner.php:68
+msgid "Post Relational Links - Index"
+msgstr "記事の関連リンク - Index"
+
+#: wp-head-cleaner.php:69
+msgid "Don't print relational link for the site index."
+msgstr "サイトインデックス用の関連リンクを出力しない。"

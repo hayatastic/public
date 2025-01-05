@@ -1,0 +1,1015 @@
+@charset "UTF-8";
+
+a.btn {
+font-size: 14px;
+padding: 20px 40px;
+}
+.sp {
+display: block;
+}
+header {
+height: 60px;
+padding: 0;
+}
+header div.flex {
+position: relative;
+padding: 5px;
+}
+header div.flex div.ttl.flex a {
+width: 60%;
+min-width: 200px;
+margin: auto 0;
+}
+header div.flex div.ttl.flex a.ikulom {
+width: auto;
+min-width: auto;
+}
+header div.flex div.ttl.flex picture.slogan {
+width: auto;
+margin-right: 0;
+}
+header div.flex div.ttl.flex picture.slogan img.slogan {
+width: 100%;
+max-width: 45px;
+padding: 0;
+margin: 0;
+margin-left: 0.5rem;
+}
+header div.flex nav {
+position: absolute;
+top: 0;
+right: 0;
+background: #fff;
+width: 100vw;
+height: 100vh;
+padding: 50px 0;
+left: 100%;
+-webkit-transition: 0.2s;
+transition: 0.2s;
+}
+header div.flex nav ul {
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+height: 100%;
+padding: 0;
+}
+header div.flex nav ul li {
+font-size: 14px;
+margin: 20px auto;
+height: auto;
+}
+header div.flex nav ul li a span {
+font-size: 10px;
+}
+header div.flex nav ul li div.float {
+z-index: 10;
+}
+header div.flex nav ul li div.float ul li {
+text-align: center;
+line-height: 3;
+}
+header div.flex nav ul li div.float.about {
+left: -20vw;
+}
+header div.flex nav ul li div.float.about::before {
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+}
+header div.flex nav ul li div.float.sns {
+padding-bottom: 30px;
+left: -25vw;
+}
+header div.flex nav ul li div.float.sns::before {
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+}
+header div.flex nav.open {
+left: 0;
+}
+header div.flex .menu_btn {
+display: block;
+position: absolute;
+top: 10px;
+right: 10px;
+width: 30px;
+height: 30px;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+cursor: pointer;
+z-index: 10;
+}
+header div.flex .menu_btn span {
+display: block;
+position: absolute;
+left: 0;
+width: 30px;
+height: 2px;
+background-color: var(--maincolor1);
+border-radius: 4px;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+}
+header div.flex .menu_btn span:first-child {
+top: 4px;
+}
+header div.flex .menu_btn span:nth-child(2) {
+top: 14px;
+}
+header div.flex .menu_btn span:last-child {
+bottom: 4px;
+}
+header div.flex .menu_btn.open span:first-child {
+-webkit-transform: translateY(10px) rotate(-315deg);
+transform: translateY(10px) rotate(-315deg);
+}
+header div.flex .menu_btn.open span:nth-child(2) {
+opacity: 0;
+}
+header div.flex .menu_btn.open span:last-child {
+-webkit-transform: translateY(-10px) rotate(315deg);
+transform: translateY(-10px) rotate(315deg);
+}
+main section#fv {
+height: calc(50vh - 50px) !important;
+margin-top: 50px;
+background-position: 35% 0;
+}
+main section#info {
+padding: 30px 0;
+}
+main section#info h2 {
+font-size: 18px;
+}
+main section#info dl {
+width: 90%;
+margin-top: 0;
+font-size: 14px;
+}
+main section#info dl div.flex {
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+main section#info dl div.flex dd {
+margin-left: 0;
+}
+main section#anniv {
+padding: 20px 0;
+}
+main section#anniv img {
+width: 30%;
+}
+main section#anniv p {
+font-size: 12px;
+margin-top: 10px;
+}
+main section#about {
+padding: 20px 5%;
+overflow: hidden;
+}
+main section#about::after {
+content: "";
+width: 110%;
+height: 100%;
+background-position: 5vw 0;
+top: 30%;
+right: -20%;
+}
+main section#about h2 div {
+font-size: 50px;
+padding-bottom: 10px;
+}
+main section#about h2 div span.jcihibiki {
+text-shadow: 4px 4px 0 var(--subcolor);
+}
+main section#about h2 span.sub {
+font-size: 14px;
+}
+main section#about div.txt {
+padding-top: 10px;
+width: 100%;
+}
+main section#about div.txt p {
+font-size: 12px;
+}
+main section#about div.txt div.btn {
+text-align: center;
+margin-top: 30px;
+}
+main section#activities {
+padding-top: 50px;
+}
+main section#activities h2 {
+font-size: 50px;
+}
+main section#activities h2 span {
+font-size: 16px;
+}
+main section#activities ul {
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+margin-top: 30px;
+width: 80%;
+gap: 30px;
+padding: 0;
+}
+main section#activities ul li {
+width: 100%;
+}
+main section#activities ul li a figure figcaption h3 {
+font-size: 14px;
+}
+main section#activities ul li a figure figcaption div.time {
+font-size: 12px;
+}
+main section#activities div.btn {
+margin-top: 30px;
+}
+main section#activities div.corner-bg {
+top: 100px;
+height: 95%;
+}
+main section#link div.wrap {
+margin-top: 2em;
+}
+main section#link h2 {
+font-size: 50px;
+}
+main section#link h2 span {
+font-size: 16px;
+}
+main section#link ul {
+gap: 3%;
+}
+main section#sns {
+margin-top: 100px;
+padding: 30px 0;
+}
+main section#sns div.flex {
+margin: auto;
+width: 90%;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+main section#sns div.flex h2 {
+font-size: 60px;
+}
+main section#sns div.flex h2 span {
+font-size: 14px;
+line-height: 1.5;
+top: 70px;
+left: 80px;
+}
+main section#sns div.flex ul.flex {
+gap: 5%;
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+justify-content: space-between;
+padding: 0;
+margin-top: 30px;
+}
+main section#sns div.flex ul.flex li {
+font-size: 12px;
+width: 20%;
+}
+main section#entry {
+padding: 50px 0;
+}
+main section#entry h2 {
+font-size: 24px;
+}
+main section#entry p {
+font-size: 14px;
+width: 90%;
+margin: auto;
+margin-top: 20px;
+}
+main section#entry div.btn {
+margin-top: 30px;
+}
+main section#link {
+padding-bottom: 50px;
+margin-top: 50px;
+}
+main section#link div.wrap h3 {
+font-size: 1.3em;
+}
+main section#link div.wrap ul {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+}
+main section#link div.wrap ul li {
+width: 47%;
+}
+main.sub {
+margin-top: 29px;
+}
+main.sub h1.sub {
+height: 100px;
+}
+main.sub h1.sub div.ttl {
+font-size: 14px;
+bottom: -4vw;
+left: 5%;
+}
+main.sub h1.sub div.ttl span::before {
+width: 30px;
+margin-bottom: 3px;
+border-bottom: 2px solid var(--subcolor);
+}
+main.sub h1.sub div.ttl img {
+height: 8vw;
+margin-top: 10px;
+}
+main.sub h2.heading {
+font-size: 20px;
+}
+main.sub h2.heading::after {
+width: 50px;
+}
+main.sub h3.heading {
+font-size: 18px;
+}
+main.sub section {
+padding: 30px 5%;
+}
+main.sub section#detail {
+background-size: 80%;
+background-position: right -10% top 10%;
+}
+main.sub section#detail div.ttl {
+font-size: 5vw;
+}
+main.sub section#detail div.ttl span {
+margin-right: 2%;
+padding: 5px;
+margin-bottom: 20px;
+}
+main.sub section#detail div.txt {
+margin-top: 30px;
+width: 100%;
+font-size: 14px;
+}
+main.sub section#detail div.wrap {
+padding-top: 30px;
+}
+main.sub section#detail div.wrap dl {
+margin-top: 20px;
+font-size: 14px;
+}
+main.sub section#detail div.wrap dl div.flex {
+margin-bottom: 20px;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+main.sub section#detail div.wrap dl div.flex dt {
+font-weight: bold;
+min-width: 10em;
+}
+main.sub section#detail div.wrap div.president {
+margin-top: 20px;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+main.sub section#detail div.wrap div.president ul {
+padding: 0;
+line-height: 2;
+font-size: 14px;
+margin-bottom: 0;
+}
+main.sub section#message p.slogan, main.sub section#members p.slogan {
+font-size: 4.5vw;
+margin-top: 20px;
+}
+main.sub section#message div.wrap, main.sub section#members div.wrap {
+margin-top: 30px;
+}
+main.sub section#message div.wrap p, main.sub section#members div.wrap p {
+margin-top: 10px;
+font-size: 12px;
+}
+main.sub section#message div.wrap div.flex, main.sub section#members div.wrap div.flex {
+-webkit-box-orient: vertical;
+-webkit-box-direction: reverse;
+-ms-flex-direction: column-reverse;
+flex-direction: column-reverse;
+gap: 0;
+}
+main.sub section#message div.wrap div.flex div.txt, main.sub section#members div.wrap div.flex div.txt {
+width: 100%;
+}
+main.sub section#message div.wrap div.flex div.portlait, main.sub section#members div.wrap div.flex div.portlait {
+width: 100%;
+}
+main.sub section#message div.wrap div.flex div.portlait figure figcaption, main.sub section#members div.wrap div.flex div.portlait figure figcaption {
+margin-top: 10px;
+margin-bottom: 20px;
+}
+main.sub section#message div.wrap div.flex div.portlait figure figcaption div.position, main.sub section#members div.wrap div.flex div.portlait figure figcaption div.position {
+font-size: 16px;
+}
+main.sub section#message div.wrap div.flex div.portlait figure figcaption div.name, main.sub section#members div.wrap div.flex div.portlait figure figcaption div.name {
+font-size: 20px;
+}
+main.sub section#message div.wrap.member_list, main.sub section#members div.wrap.member_list {
+padding: 20px;
+margin-bottom: 50px;
+}
+main.sub section#message div.wrap.member_list ul, main.sub section#members div.wrap.member_list ul {
+gap: 20px 1%;
+}
+main.sub section#message div.wrap.member_list ul::after, main.sub section#members div.wrap.member_list ul::after {
+width: 28%;
+}
+main.sub section#message div.wrap.member_list ul li, main.sub section#members div.wrap.member_list ul li {
+width: 30%;
+}
+main.sub section#message div.wrap.member_list ul li a figure figcaption,
+main.sub section#message div.wrap.member_list ul li div figure figcaption, main.sub section#members div.wrap.member_list ul li a figure figcaption,
+main.sub section#members div.wrap.member_list ul li div figure figcaption {
+margin-top: 5px;
+}
+main.sub section#message div.wrap.member_list ul li a figure figcaption div.position,
+main.sub section#message div.wrap.member_list ul li div figure figcaption div.position, main.sub section#members div.wrap.member_list ul li a figure figcaption div.position,
+main.sub section#members div.wrap.member_list ul li div figure figcaption div.position {
+font-size: 2.5vw;
+}
+main.sub section#message div.wrap.member_list ul li a figure figcaption div.name,
+main.sub section#message div.wrap.member_list ul li div figure figcaption div.name, main.sub section#members div.wrap.member_list ul li a figure figcaption div.name,
+main.sub section#members div.wrap.member_list ul li div figure figcaption div.name {
+font-size: 3.5vw;
+}
+main.sub section#message div.wrap.member, main.sub section#members div.wrap.member {
+padding-top: 50px;
+margin-top: 0px;
+}
+main.sub section#guide div.intro p {
+font-size: 3.5vw;
+}
+main.sub section#guide div.intro p b {
+font-size: 4.5vw;
+margin-top: 30px;
+line-height: 1.5;
+}
+main.sub section#guide div.intro p b span {
+margin-top: 5vw;
+}
+main.sub section#guide div.wrap {
+margin-top: 30vw;
+}
+main.sub section#guide div.wrap h2 {
+margin-bottom: 6vw;
+}
+main.sub section#guide div.wrap h2::before {
+left: -10vw;
+top: -15vw;
+width: 100px;
+height: 100px;
+}
+main.sub section#guide div.wrap h2 img {
+height: 10vw;
+}
+main.sub section#guide div.wrap h2 span {
+font-size: 4vw;
+margin-top: 3vw;
+}
+main.sub section#guide div.wrap p {
+margin-bottom: 3vw;
+font-size: 13px;
+line-height: 2;
+}
+main.sub section#guide div.wrap div.txt,
+main.sub section#guide div.wrap dl {
+margin-top: 4vw;
+}
+main.sub section#guide div.wrap div.txt dt,
+main.sub section#guide div.wrap dl dt {
+font-size: 16px;
+}
+main.sub section#guide div.wrap div.txt dd,
+main.sub section#guide div.wrap dl dd {
+margin-bottom: 5vw;
+margin-top: 10px;
+font-size: 14px;
+}
+main.sub section#guide div.wrap dl div.flex dt {
+margin-right: 5vw;
+font-size: 5vw;
+}
+main.sub section#guide div.wrap dl div.flex dd {
+font-size: 5vw;
+}
+main.sub section#guide div.wrap:first-child h2::before {
+left: -7vw;
+}
+main.sub section#guide div.wrap:nth-child(odd)::after {
+width: 120vw;
+height: 120%;
+top: -10%;
+left: -20vw;
+}
+main.sub section#guide div.wrap div {
+margin-bottom: 20vw;
+}
+main.sub section#guide div.wrap div::after {
+border-width: 5vw 7vw 0 7vw;
+left: 10vw;
+}
+main.sub section#guide div.wrap.contact {
+margin-top: 30vw;
+}
+main.sub section#guide div.wrap.contact p {
+font-size: 4vw;
+}
+main.sub section#guide div.wrap.contact div.btn {
+margin-top: 10vw;
+}
+main.sub section#link ul, main.sub section#document ul {
+padding: 0;
+}
+main.sub section#link ul li a, main.sub section#document ul li a {
+font-size: 14px;
+}
+main.sub section#policy h2 {
+font-size: 16px;
+}
+main.sub section#policy h3 {
+color: var(--fontcolor);
+font-size: 14px;
+}
+main.sub section#policy p {
+font-size: 13px;
+margin-bottom: 30px;
+}
+main.sub section#newsletter div.container h2 {
+line-height: 1.2;
+padding-bottom: 10px;
+font-size: 4.5vw;
+}
+main.sub section#newsletter div.container h2::after {
+padding-bottom: 10px;
+}
+main.sub section#newsletter div.container div.date {
+font-size: 12px;
+}
+main.sub section#newsletter div.container div.flex {
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+margin: auto;
+margin-top: 20px;
+gap: 20px;
+}
+main.sub section#newsletter div.container div.flex div.img {
+width: 80%;
+max-width: 300px;
+}
+main.sub section#newsletter div.container div.flex div.img img {
+width: 100%;
+}
+main.sub section#newsletter div.container div.flex div.info {
+margin: auto;
+margin-top: 30px;
+width: 80%;
+}
+main.sub section#newsletter div.container div.flex div.info div.contents {
+font-size: 16px;
+}
+main.sub section#newsletter div.container div.flex div.info ul {
+margin-top: 10px;
+font-size: 14px;
+}
+main.sub section#newsletter div.container div.flex div.info div.btn {
+text-align: center;
+}
+main.sub section#report {
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+main.sub section#report.article {
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+main.sub section#report.article > div.flex {
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+main.sub section#report.article div.breadcrumb-container {
+padding-left: 0 !important;
+margin-top: 1rem !important;
+margin-bottom: 1rem;
+}
+main.sub section#report div.article {
+width: 100%;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+main.sub section#report div.article article {
+width: 100%;
+}
+main.sub section#report div.article article p {
+font-size: 14px;
+}
+main.sub section#report div.article article h2 {
+line-height: 1.2;
+padding-bottom: 10px;
+font-size: 18px;
+}
+main.sub section#report div.article article h2::after {
+padding-bottom: 10px;
+}
+main.sub section#report div.article article div.date {
+font-size: 12px;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+main.sub section#report div.article article div.flex {
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+margin: auto;
+margin-top: 20px;
+gap: 20px;
+}
+main.sub section#report div.article article div.flex div.img {
+width: 100%;
+}
+main.sub section#report div.article article div.flex div.img img {
+width: 100%;
+}
+main.sub section#report div.article article div.flex div.body {
+margin: auto;
+margin-top: 30px;
+width: 100%;
+}
+main.sub section#report div.article article div.flex div.body p {
+font-size: 14px;
+}
+main.sub section#report div.article article div.flex div.body div.btn {
+text-align: center;
+}
+main.sub section#report div.article article div.flex div.body div.btn a.btn {
+padding: 15px 30px;
+}
+main.sub section#report aside {
+width: 100%;
+margin-top: 30px;
+}
+main.sub section#report aside h3 {
+font-size: 18px;
+}
+main.sub section#contact div.wrap {
+margin-top: 30px;
+margin-bottom: 50px;
+}
+main.sub section#contact div.wrap div.box {
+width: 100%;
+}
+main.sub section#contact div.wrap div.box h2 {
+font-size: 15px;
+}
+main.sub section#contact div.wrap div.box div.address {
+font-size: 7vw;
+}
+main.sub section#contact div.wrap div.box span {
+font-size: 14px;
+}
+main.sub section#contact div.form {
+margin: auto;
+width: 100%;
+margin-top: 30px;
+}
+main.sub section#contact div.form form dl div.flex {
+gap: 10px;
+margin-bottom: 10px;
+}
+main.sub section#contact div.form form dl div.flex dt {
+font-size: 12px;
+width: 35%;
+padding: 5px 0;
+}
+main.sub section#contact div.form form dl div.flex dd {
+width: 65%;
+font-size: 12px;
+}
+main.sub section#contact div.form form p.check {
+margin-top: 30px;
+}
+main.sub section#contact div.form form div.btn {
+margin-top: 30px;
+}
+main.sub section#contact div.form form div.btn div.submit input[type=submit] {
+font-size: 16px;
+padding: 15px 30px;
+padding-left: 60px;
+}
+main.sub section#contact div.form form div.btn div.submit::before {
+font-size: 16px;
+}
+main.sub div#wpmem_restricted_msg {
+margin-top: 80px;
+width: 90%;
+}
+main.sub div#wpmem_restricted_msg p {
+font-size: 14px;
+}
+main.sub div.wpmem_msg {
+font-size: 14px;
+}
+div#statement {
+max-width: 150px;
+left: calc(100vw - (150px + 1em));
+}
+div#statement iframe {
+border-radius: 0.5em;
+}
+footer {
+padding-top: 20px;
+}
+footer div.wrap {
+width: 90%;
+padding-bottom: 20px;
+}
+footer div.wrap div.info {
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+padding: 30px 0;
+}
+footer div.wrap div.info div.ttl {
+margin: auto;
+width: 90%;
+height: auto;
+margin-bottom: 10px;
+}
+footer div.wrap div.info div.ttl img {
+height: auto;
+}
+footer div.wrap div.info div.address {
+margin: auto;
+margin-top: 20px;
+font-size: 14px;
+}
+footer div.wrap div.nav {
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+width: 90%;
+margin: auto;
+padding: 0;
+}
+footer div.wrap div.nav ul {
+width: 100%;
+margin-top: 10px;
+}
+footer div.wrap div.nav ul li {
+font-size: 1em;
+}
+footer div.wrap div.nav ul li.sub {
+line-height: 2;
+}
+footer div.wrap div.nav ul li.sub::before {
+font-size: 14px;
+}
+footer small {
+padding: 20px 0;
+font-size: 0.8rem;
+} @media (orientation: landscape) {
+main section#fv {
+height: calc(100vh - 60px);
+margin-top: 60px;
+background-position: 35% 0;
+}
+main section#info {
+padding: 30px 0;
+}
+main section#info h2 {
+font-size: 18px;
+}
+main section#info dl {
+width: 90%;
+margin-top: 0;
+font-size: 14px;
+}
+main section#info dl div.flex {
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+main section#info dl div.flex dd {
+margin-left: 0;
+}
+main section#anniv {
+padding: 20px 0;
+}
+main section#anniv img {
+width: 20%;
+}
+main section#anniv p {
+font-size: 12px;
+margin-top: 10px;
+}
+main section#about {
+padding: 20px 5%;
+overflow: hidden;
+}
+main section#about::after {
+content: "";
+width: 80%;
+height: 100%;
+background-position: 5vw 0;
+top: 30%;
+right: 0%;
+}
+main section#about h2 div {
+font-size: 50px;
+padding-bottom: 10px;
+}
+main section#about h2 div span.jcihibiki {
+text-shadow: 4px 4px 0 var(--subcolor);
+}
+main section#about h2 span.sub {
+font-size: 14px;
+}
+main section#about div.txt {
+padding-top: 10px;
+width: 60%;
+}
+main section#about div.txt p {
+font-size: 12px;
+}
+main section#about div.txt div.btn {
+text-align: left;
+margin-top: 30px;
+}
+main section#activities {
+padding-top: 50px;
+}
+main section#activities h2 {
+font-size: 50px;
+}
+main section#activities h2 span {
+font-size: 16px;
+}
+main section#activities ul {
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-direction: row;
+flex-direction: row;
+margin-top: 30px;
+width: 80%;
+gap: 30px;
+padding: 0;
+}
+main section#activities ul li a figure figcaption h3 {
+font-size: 14px;
+}
+main section#activities ul li a figure figcaption div.time {
+font-size: 12px;
+}
+main section#activities div.btn {
+margin-top: 30px;
+}
+main section#activities div.corner-bg {
+top: 100px;
+height: 95%;
+}
+main section#sns {
+margin-top: 100px;
+padding: 50px 0;
+}
+main section#sns div.flex {
+margin: auto;
+width: 90%;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-direction: row;
+flex-direction: row;
+}
+main section#sns div.flex h2 {
+font-size: 40px;
+}
+main section#sns div.flex h2 span {
+font-size: 10px;
+line-height: 1.5;
+top: 50px;
+left: 60px;
+}
+main section#sns div.flex ul.flex {
+gap: 5%;
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+justify-content: space-between;
+padding: 0;
+margin: auto;
+margin-right: 0;
+width: 65%;
+}
+main section#sns div.flex ul.flex li {
+font-size: 12px;
+width: 20%;
+}
+main section#entry {
+padding: 50px 0;
+background-position: 20% 0;
+}
+main section#entry h2 {
+font-size: 24px;
+}
+main section#entry p {
+font-size: 14px;
+width: 90%;
+margin: auto;
+margin-top: 20px;
+}
+main section#entry div.btn {
+margin-top: 30px;
+}
+footer {
+padding-top: 20px;
+}
+footer div.wrap {
+width: 90%;
+padding-bottom: 20px;
+}
+footer div.wrap div.info {
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-direction: row;
+flex-direction: row;
+padding: 30px 0;
+gap: 20px;
+}
+footer div.wrap div.info div.ttl {
+margin: auto;
+width: 50%;
+margin-top: 5px;
+}
+footer div.wrap div.info div.ttl img {
+height: auto;
+width: 100%;
+}
+footer div.wrap div.info div.address {
+font-size: 12px;
+margin: auto;
+}
+footer div.wrap div.nav {
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-direction: row;
+flex-direction: row;
+width: 100%;
+margin: auto;
+padding: 0;
+}
+footer div.wrap div.nav ul {
+width: 100%;
+margin-top: 10px;
+}
+footer div.wrap div.nav ul li {
+font-size: 12px;
+}
+footer div.wrap div.nav ul li.sub {
+line-height: 2;
+}
+footer div.wrap div.nav ul li.sub::before {
+font-size: 10px;
+}
+footer small {
+padding: 20px 0;
+font-size: 10px;
+}
+}  @media (min-width: 400px) and (max-width: 700px) {
+footer {
+margin-top: 50px;
+}
+}
