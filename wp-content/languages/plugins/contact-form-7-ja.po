@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-05 02:21:01+0000\n"
+"PO-Revision-Date: 2025-01-14 04:07:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,27 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: ja_JP\n"
 "Project-Id-Version: Plugins - Contact Form 7 - Stable (latest release)\n"
+
+#: admin/includes/welcome-panel.php:97
+msgid "contribute to the project"
+msgstr "プロジェクトに貢献する方法"
+
+#: admin/includes/welcome-panel.php:96
+msgid "https://contactform7.com/contributing/"
+msgstr "https://contactform7.com/ja/contributing/"
+
+#. translators: %s: link labeled 'contribute to the project'
+#: admin/includes/welcome-panel.php:94
+msgid "There are several ways for you to %s: testing, coding, translating it into your local languages, helping other users, financial donations, etc, etc. We equally welcome you regardless of the way you contribute."
+msgstr "%sはいくつもあります: テストに協力する、コードを書く、あなたのローカル言語に翻訳する、他のユーザーの手助けをする、経済的ドネーション、などなど。方法を問わずすべての貢献者を歓迎します。"
+
+#: admin/includes/welcome-panel.php:91
+msgid "It is hard to continue to maintain this plugin without support from users like you."
+msgstr "このプラグインを維持し続けるためにユーザーのみなさんからの支援を必要としています。"
+
+#: admin/admin.php:683
+msgid "The Constant Contact integration is deprecated and planned to be <a href=\"https://contactform7.com/2025/01/08/complete-removal-of-constant-contact-integration/\">completely removed</a> anytime soon. Contact Form 7 recommends <a href=\"https://contactform7.com/sendinblue-integration/\">Brevo</a> as an alternative."
+msgstr "Constant Contact インテグレーションは非推奨であり近い将来<a href=\"https://contactform7.com/ja/2025/01/08/complete-removal-of-constant-contact-integration/\">完全に削除されます</a>。Contact Form 7 は代替として <a href=\"https://contactform7.com/ja/sendinblue-integration/\">Brevo</a> を推奨します。"
 
 #: modules/textarea.php:154
 msgid "Generates a form-tag for a <a href=\"https://contactform7.com/text-fields/\">multi-line plain text input area</a>."
@@ -284,10 +305,6 @@ msgstr "警告:"
 msgid "Undefined value was submitted through this field."
 msgstr "未定義の値がこの項目を通じて送信されました。"
 
-#: admin/admin.php:682
-msgid "The Constant Contact integration is deprecated. It is not recommended to continue using the feature."
-msgstr "Constant Contact インテグレーションは廃止されます。この機能の利用を継続することは推奨されません。"
-
 #: includes/rest-api.php:360
 msgid "There is no valid unit tag."
 msgstr "適正なユニットタグがありません。"
@@ -320,7 +337,7 @@ msgstr "設定エラーが検出されました。"
 msgid "Brevo is active on this site."
 msgstr "Brevo はこのサイト上で有効化されています。"
 
-#: admin/includes/welcome-panel.php:153
+#: admin/includes/welcome-panel.php:152
 #: modules/sendinblue/contact-form-properties.php:107
 #: modules/sendinblue/contact-form-properties.php:295
 #: modules/sendinblue/service.php:30
@@ -551,33 +568,33 @@ msgstr "コンタクトフォームの一意識別子。"
 msgid "Dots are used in form-tag names."
 msgstr "フォームタグの名前にドット記号が使われている。"
 
-#: admin/includes/welcome-panel.php:299
+#: admin/includes/welcome-panel.php:298
 msgid "Show welcome panel"
 msgstr "ウェルカムパネルを表示"
 
-#: admin/includes/welcome-panel.php:296
+#: admin/includes/welcome-panel.php:295
 msgid "Welcome panel"
 msgstr "ウェルカムパネル"
 
-#: admin/includes/welcome-panel.php:165 modules/stripe/service.php:36
+#: admin/includes/welcome-panel.php:164 modules/stripe/service.php:36
 msgid "Stripe"
 msgstr "Stripe"
 
-#: admin/includes/welcome-panel.php:164 modules/stripe/service.php:168
+#: admin/includes/welcome-panel.php:163 modules/stripe/service.php:168
 msgid "https://contactform7.com/stripe-integration/"
 msgstr "https://contactform7.com/ja/stripe-integration/"
 
 #. translators: 1: link labeled 'reCAPTCHA', 2: link labeled 'Stripe'
-#: admin/includes/welcome-panel.php:158
+#: admin/includes/welcome-panel.php:157
 msgid "With help from cloud-based machine learning, anti-spam services will protect your forms (%1$s). Even payment services are natively supported (%2$s)."
 msgstr "クラウドベースの機械学習の助けを借りて、アンチスパムサービスはあなたのフォームを守ります (%1$s)。支払いサービスまでもネイティブでサポートされています (%2$s)。"
 
 #. translators: 1: link labeled 'Brevo'
-#: admin/includes/welcome-panel.php:150
+#: admin/includes/welcome-panel.php:149
 msgid "Your contact forms will become more powerful and versatile by integrating them with external APIs. With CRM and email marketing services, you can build your own contact lists (%1$s)."
 msgstr "外部の API との連携があなたのコンタクトフォームをもっと強力で多機能なものにします。CRM とメールマーケティングのサービスと連携すれば独自の連絡先リストの構築が可能になります (%1$s)。"
 
-#: admin/includes/welcome-panel.php:142
+#: admin/includes/welcome-panel.php:141
 msgid "You have strong allies to back you up."
 msgstr "あなたを助ける強い味方がいます。"
 
@@ -677,7 +694,7 @@ msgstr "API キー"
 msgid "Setup integration"
 msgstr "インテグレーションのセットアップ"
 
-#: admin/includes/welcome-panel.php:152
+#: admin/includes/welcome-panel.php:151
 #: modules/sendinblue/contact-form-properties.php:98
 #: modules/sendinblue/service.php:159
 msgid "https://contactform7.com/sendinblue-integration/"
@@ -971,23 +988,6 @@ msgstr "フォームのテンプレートを編集する"
 msgid "https://contactform7.com/editing-form-template/"
 msgstr "https://contactform7.com/ja/editing-form-template/"
 
-#: admin/includes/welcome-panel.php:100
-msgid "Your donation will help encourage and support the plugin&#8217;s continued development and better user support."
-msgstr "あなたの寄付がこのプラグインの継続的な開発とより良いユーザーサポートの提供を支えます。"
-
-#: admin/includes/welcome-panel.php:97
-msgid "making a donation"
-msgstr "少額の寄付"
-
-#. translators: %s: link labeled 'making a donation'
-#: admin/includes/welcome-panel.php:94
-msgid "If you enjoy using Contact Form 7 and find it useful, please consider %s."
-msgstr "もし Contact Form 7 を使って便利だと思われたなら、ぜひ%sをご検討ください。"
-
-#: admin/includes/welcome-panel.php:91
-msgid "It is hard to continue development and support for this plugin without contributions from users like you."
-msgstr "このプラグインの開発とサポートには多大な労力が費やされており、ユーザーのみなさんからの支援なしには継続不可能です。"
-
 #: includes/contact-form.php:540 includes/contact-form.php:1063
 msgid "This contact form is available only for logged in users."
 msgstr "このコンタクトフォームはログインしたユーザーにのみ利用可能です。"
@@ -1078,20 +1078,20 @@ msgstr "コンタクトフォームを保存する際にエラーが発生しま
 msgid "Hook %1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s! Use %3$s instead."
 msgstr "フック %1$s の使用は Contact Form 7 バージョン %2$s から<strong>非推奨</strong>になっています! 代わりに %3$s を使ってください。"
 
-#: admin/includes/welcome-panel.php:126
+#: admin/includes/welcome-panel.php:125
 msgid "Flamingo"
 msgstr "Flamingo"
 
 #. translators: %s: link labeled 'Flamingo'
-#: admin/includes/welcome-panel.php:123
+#: admin/includes/welcome-panel.php:122
 msgid "Install a message storage plugin before this happens to you. %s saves all messages through contact forms into the database. Flamingo is a free WordPress plugin created by the same author as Contact Form 7."
 msgstr "こんなことが現実になる前にメッセージ保存プラグインをインストールしましょう。%s はコンタクトフォームを経由するすべてのメッセージをデータベースに保存します。Flamingo は Contact Form 7 と同じ作者が作成したフリーの WordPress プラグインです。"
 
-#: admin/includes/welcome-panel.php:120
+#: admin/includes/welcome-panel.php:119
 msgid "Contact Form 7 does not store submitted messages anywhere. Therefore, you may lose important messages forever if your mail server has issues or you make a mistake in mail configuration."
 msgstr "Contact Form 7 は送信されたメッセージをどこにも保存しません。そのため、メールサーバーに問題があったりメールの設定に間違いがあれば、大事なメッセージを永遠に失うことになりかねません。"
 
-#: admin/includes/welcome-panel.php:114
+#: admin/includes/welcome-panel.php:113
 msgid "Before you cry over spilt mail&#8230;"
 msgstr "こぼしたメールを嘆く前に。"
 
@@ -1200,7 +1200,7 @@ msgstr[0] "%s 個のコンタクトフォームを検証する"
 msgid "You are not allowed to validate configuration."
 msgstr "設定検証を行う権限がありません。"
 
-#: admin/includes/welcome-panel.php:64 admin/includes/welcome-panel.php:160
+#: admin/includes/welcome-panel.php:64 admin/includes/welcome-panel.php:159
 #: modules/recaptcha/recaptcha.php:262 modules/recaptcha/service.php:286
 msgid "https://contactform7.com/recaptcha/"
 msgstr "https://contactform7.com/recaptcha/"
@@ -1223,7 +1223,7 @@ msgstr "設定を保存しました。"
 msgid "Invalid key values."
 msgstr "不正なキー値。"
 
-#: admin/includes/welcome-panel.php:65 admin/includes/welcome-panel.php:161
+#: admin/includes/welcome-panel.php:65 admin/includes/welcome-panel.php:160
 #: modules/recaptcha/service.php:29
 msgid "reCAPTCHA"
 msgstr "reCAPTCHA"
@@ -1808,7 +1808,7 @@ msgstr "保存"
 msgid "You are not allowed to edit this contact form."
 msgstr "このコンタクトフォームを編集する権限がありません。"
 
-#: admin/includes/welcome-panel.php:125
+#: admin/includes/welcome-panel.php:124
 msgid "https://contactform7.com/save-submitted-messages-with-flamingo/"
 msgstr "https://contactform7.com/save-submitted-messages-with-flamingo/"
 
@@ -1828,15 +1828,11 @@ msgstr "メールのセットアップ"
 msgid "https://contactform7.com/setting-up-mail/"
 msgstr "https://contactform7.com/ja/setting-up-mail/"
 
-#: admin/includes/welcome-panel.php:96
-msgid "https://contactform7.com/donate/"
-msgstr "https://contactform7.com/ja/donate/"
-
 #: admin/includes/welcome-panel.php:85
 msgid "Contact Form 7 needs your support."
 msgstr "Contact Form 7 は支援を必要としています。"
 
-#: admin/includes/welcome-panel.php:212
+#: admin/includes/welcome-panel.php:211
 msgid "Dismiss"
 msgstr "非表示にする"
 
