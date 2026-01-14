@@ -151,19 +151,19 @@ function foogallery_build_attachment_html_anchor_attributes( $foogallery_attachm
 	}
 
 	if ( ! empty( $foogallery_attachment->caption ) ) {
-		$attr['data-caption-title'] = foogallery_sanitize_html( $foogallery_attachment->caption );
+		$attr['data-caption-title'] = foogallery_sanitize_full( $foogallery_attachment->caption );
 	}
 
 	if ( ! empty( $foogallery_attachment->description ) ) {
-		$attr['data-caption-desc'] = foogallery_sanitize_html( $foogallery_attachment->description );
+		$attr['data-caption-desc'] = foogallery_sanitize_full( $foogallery_attachment->description );
 	}
 
 	if ( isset( $foogallery_attachment->caption_title ) ) {
-		$attr['data-caption-title'] = foogallery_sanitize_html( $foogallery_attachment->caption_title );
+		$attr['data-caption-title'] = foogallery_sanitize_full( $foogallery_attachment->caption_title );
 	}
 
 	if ( isset( $foogallery_attachment->caption_desc ) ) {
-		$attr['data-caption-desc'] = foogallery_sanitize_html( $foogallery_attachment->caption_desc );
+		$attr['data-caption-desc'] = foogallery_sanitize_full( $foogallery_attachment->caption_desc );
 	}
 
 	// set the ID attribute for the attachment.
@@ -300,18 +300,18 @@ function foogallery_build_attachment_html_caption( &$foogallery_attachment, $arg
 
 	//extra sanitization for HTML captions
 	if ( isset( $args['override_caption_title'] ) ) {
-		$captions['override_title'] = foogallery_sanitize_html( $args['override_caption_title'] );
+		$captions['override_title'] = foogallery_sanitize_full( $args['override_caption_title'] );
 	}
 	if ( isset( $args['override_caption_desc']) ) {
-		$captions['override_desc'] = foogallery_sanitize_html( $args['override_caption_desc'] );
+		$captions['override_desc'] = foogallery_sanitize_full( $args['override_caption_desc'] );
 	}
 
 	//extra sanitization for HTML captions
 	if ( !empty( $captions['title']) ) {
-		$captions['title'] = foogallery_sanitize_html( $captions['title'] );
+		$captions['title'] = foogallery_sanitize_full( $captions['title'] );
 	}
 	if ( !empty( $captions['desc']) ) {
-		$captions['desc'] = foogallery_sanitize_html( $captions['desc'] );
+		$captions['desc'] = foogallery_sanitize_full( $captions['desc'] );
 	}
 
 	return apply_filters( 'foogallery_build_attachment_html_caption', $captions, $foogallery_attachment, $args );
@@ -336,8 +336,6 @@ function foogallery_attachment_html_caption( $foogallery_attachment, $args = arr
 		$caption_title = null;
 		$caption_desc = null;
 
-		$html = '<figcaption class="fg-caption"><div class="fg-caption-inner">';
-
 		if ( array_key_exists( 'override_title', $captions ) ) {
 			$caption_title = $captions['override_title'];
 		} else if ( array_key_exists( 'title', $captions ) ) {
@@ -349,14 +347,18 @@ function foogallery_attachment_html_caption( $foogallery_attachment, $args = arr
 			$caption_desc = $captions['desc'];
 		}
 
-		if ( !empty( $caption_title ) ) {
-			$html .= '<div class="fg-caption-title">' . $caption_title . '</div>';
-		}
-		if ( !empty( $caption_desc ) ) {
-			$html .= '<div class="fg-caption-desc">' . $caption_desc . '</div>';
-		}
+		if ( !empty( $caption_title ) || !empty( $caption_desc ) ) {
+			$html = '<figcaption class="fg-caption"><div class="fg-caption-inner">';
 
-		$html .= '</div></figcaption>';
+			if ( !empty( $caption_title ) ) {
+				$html .= '<div class="fg-caption-title">' . $caption_title . '</div>';
+			}
+			if ( !empty( $caption_desc ) ) {
+				$html .= '<div class="fg-caption-desc">' . $caption_desc . '</div>';
+			}
+
+			$html .= '</div></figcaption>';
+		}
 	}
 
     return apply_filters( 'foogallery_attachment_html_caption', $html, $foogallery_attachment, $args );
@@ -580,8 +582,8 @@ function foogallery_render_script_block_for_json_items( $gallery, $attachments )
 	if ( count( $attachments ) > 0 ) {
 		$attachments_json = array_map( 'foogallery_build_json_from_attachment', $attachments );
 		echo '<script type="text/javascript">';
-		echo '  window["' . $gallery->container_id() . '_items"] = [';
-		echo implode( ', ', $attachments_json );
+		echo '  window["' . esc_js( $gallery->container_id() ) . '_items"] = [';
+		echo implode( ', ', $attachments_json ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- JSON data
 		echo '  ];';
 		echo '</script>';
 	}

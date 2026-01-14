@@ -2,9 +2,9 @@
 Contributors: ishitaka, archidoc
 Tags: featured image, thumbnail, auto featured image
 Requires at least: 4.9
-Tested up to: 6.5
+Tested up to: 6.9
 Requires PHP: 5.6
-Stable tag: 1.15.2
+Stable tag: 1.15.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,9 @@ Automatically generate the featured image from the image of the post.
 3. Post List.
 
 == Changelog ==
+
+= 1.15.3 =
+* Supported WordPress 6.9.
 
 = 1.15.2 =
 * Fixed a bug that an incorrect featured image may be selected in a site migration environment with a URL change.

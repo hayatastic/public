@@ -995,30 +995,20 @@ class XO_Featured_Image_Tools_Admin {
 	 * @see wp_getimagesize()
 	 *
 	 * @param string $filename   The file path.
-	 * @param array  $image_info Optional. Extended image information (passed by reference).
 	 * @return array|false Array of image information or false on failure.
 	 */
-	private function get_image_size( $filename, array &$image_info = null ) {
+	private function get_image_size( $filename ) {
 		if ( function_exists( 'wp_getimagesize' ) ) {
-			return wp_getimagesize( $filename, $image_info );
+			return wp_getimagesize( $filename );
 		}
 
 		if ( defined( 'WP_DEBUG' ) && WP_DEBUG
 			&& ! defined( 'WP_RUN_CORE_TESTS' )
 		) {
-			if ( 2 === func_num_args() ) {
-				$info = getimagesize( $filename, $image_info );
-			} else {
-				$info = getimagesize( $filename );
-			}
-		} else { // phpcs:ignore Universal.ControlStructures.DisallowLonelyIf.Found
-			if ( 2 === func_num_args() ) {
-				// phpcs:ignore WordPress.PHP.NoSilencedErrors
-				$info = @getimagesize( $filename, $image_info );
-			} else {
-				// phpcs:ignore WordPress.PHP.NoSilencedErrors
-				$info = @getimagesize( $filename );
-			}
+			$info = getimagesize( $filename );
+		} else {
+			// phpcs:ignore WordPress.PHP.NoSilencedErrors
+			$info = @getimagesize( $filename );
 		}
 
 		if ( false !== $info ) {

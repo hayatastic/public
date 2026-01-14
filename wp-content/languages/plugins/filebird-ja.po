@@ -1,27 +1,73 @@
-# Translation of Plugins - FileBird &#8211; WordPress Media Library Folders &amp; File Manager - Development (trunk) in Japanese
-# This file is distributed under the same license as the Plugins - FileBird &#8211; WordPress Media Library Folders &amp; File Manager - Development (trunk) package.
+# Translation of Plugins - FileBird &#8211; WordPress Media Library Folders &amp; File Manager - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - FileBird &#8211; WordPress Media Library Folders &amp; File Manager - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-09-09 11:09:19+0000\n"
+"PO-Revision-Date: 2025-12-26 13:16:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/4.0.1\n"
+"X-Generator: GlotPress/4.0.3\n"
 "Language: ja_JP\n"
-"Project-Id-Version: Plugins - FileBird &#8211; WordPress Media Library Folders &amp; File Manager - Development (trunk)\n"
+"Project-Id-Version: Plugins - FileBird &#8211; WordPress Media Library Folders &amp; File Manager - Stable (latest release)\n"
 
-#: includes/I18n.php:290
-msgid "Folders for post types"
-msgstr "投稿タイプのフォルダー"
+#: includes/Controller/FolderController.php:124
+msgid "Drag node not found"
+msgstr "ドラッグノードが見つかりません"
 
-#: includes/I18n.php:289
-msgid "Folders for media library"
-msgstr "メディアライブラリのフォルダー"
+#: includes/Classes/Convert.php:96
+msgid "You are not authorized to insert old data."
+msgstr "古いデータを挿入する権限がありません。"
 
-#: includes/I18n.php:288
-msgid "Switch from searching using JavaScript to using an API"
-msgstr "JavaScript を使用した検索から API を使用した検索に切り替える"
+#: includes/Classes/Core.php:99 includes/Classes/Review.php:34
+#: includes/Support/WPML.php:55
+msgid "You do not have permission to perform this action."
+msgstr "この操作を実行する権限がありません。"
+
+#: blocks/filebird-gallery/build/block.json
+msgctxt "block keyword"
+msgid "gallery"
+msgstr "ギャラリー"
+
+#: blocks/filebird-gallery/build/block.json
+msgctxt "block keyword"
+msgid "filebird"
+msgstr "filebird"
+
+#: blocks/filebird-gallery/build/block.json
+msgctxt "block description"
+msgid "Display folder images in a rich gallery."
+msgstr "フォルダー画像を豊富なギャラリーで表示します。"
+
+#: blocks/filebird-gallery/build/block.json
+msgctxt "block title"
+msgid "FileBird Gallery"
+msgstr "FileBird ギャラリー"
+
+#: includes/I18n.php:284
+msgid "Enable cache optimization"
+msgstr "キャッシュ最適化を有効化"
+
+#: includes/I18n.php:283
+msgid "Document Library"
+msgstr "ドキュメントライブラリ"
+
+#: includes/I18n.php:63
+msgid "Most recent folder"
+msgstr "最新のフォルダー"
+
+#: includes/Controller/FolderController.php:322
+msgid "Permisson Denied."
+msgstr "パーミッションが拒否されました。"
+
+#: includes/Classes/Convert.php:115 includes/Classes/Convert.php:140
+msgid "You are not authorized to clear all data."
+msgstr "すべてのデータを消去する権限がありません。"
+
+#: blocks/filebird-gallery/build/render.php:114
+#: blocks/filebird-gallery/build/index.js:1
+msgid "This folder has no images, please choose another one."
+msgstr "このフォルダーには画像がありませんので、他のフォルダを選択してください。"
 
 #: views/settings/header.php:46
 msgid "Changelog"
@@ -43,17 +89,74 @@ msgstr "バージョン"
 msgid "Oops! Activation failed."
 msgstr "おっと ! 有効化に失敗しました。"
 
-#: includes/I18n.php:287
+#: views/notices/html-notice-update-database.php:29
+msgid "Update now"
+msgstr "今すぐ更新"
+
+#: views/notices/html-notice-update-database.php:23
+msgid "You are using the new FileBird 4. Please update database to view your folders correctly."
+msgstr "新しい FileBird 4 を使用しています。フォルダーを正しく表示するに、データベースを更新してください。"
+
+#: views/notices/html-notice-first-folder.php:13
+msgid "Get Started"
+msgstr "始めてみよう"
+
+#: views/notices/html-notice-first-folder.php:11
+msgid "Create your first folder for media library now."
+msgstr "さあメディアライブラリに最初のフォルダーを作成してください。"
+
+#: includes/Support/WPML.php:80
+msgid "Done!"
+msgstr "完了!"
+
+#: includes/Support/DocumentGallery.php:26
+msgid "This folder ID does not exist, please check again."
+msgstr "このフォルダ ID は存在しませんので、もう一度確認してください。"
+
+#: includes/Support/ACF/acf-field-filebird-v4.php:20
+#: includes/Support/ACF/acf-field-filebird-v5.php:19
+msgid "FileBird Folder"
+msgstr "FileBird フォルダー"
+
+#: includes/I18n.php:292
+msgid "Folders for post types"
+msgstr "投稿タイプのフォルダー"
+
+#: includes/I18n.php:291
+msgid "Folders for media library"
+msgstr "メディアライブラリのフォルダー"
+
+#: includes/I18n.php:290
+msgid "Switch from searching using JavaScript to using an API"
+msgstr "JavaScript を使用した検索から API を使用した検索に切り替える"
+
+#: includes/I18n.php:289
 msgid "There are no folders to export."
 msgstr "エクスポートするフォルダーはありません。"
 
-#: includes/I18n.php:284
+#: includes/I18n.php:288
+msgid "PRO"
+msgstr "PRO"
+
+#: includes/I18n.php:287
+msgid "Lifetime license"
+msgstr "ライフタイムライセンス"
+
+#: includes/I18n.php:286
 msgid "By"
 msgstr "By"
 
-#: includes/I18n.php:283
+#: includes/I18n.php:285
 msgid "Select theme"
 msgstr "テーマを選択"
+
+#: includes/I18n.php:282 views/settings/header.php:20
+msgid "Import/Export"
+msgstr "インポート / エクスポート"
+
+#: includes/I18n.php:281 views/settings/header.php:15
+msgid "Tools"
+msgstr "ツール"
 
 #: includes/I18n.php:280 views/settings/header.php:5
 msgid "Activation"
@@ -62,6 +165,10 @@ msgstr "有効化"
 #: includes/I18n.php:279
 msgid "Open FileBird"
 msgstr "FileBird を開く"
+
+#: includes/I18n.php:278
+msgid "Allow built-in SVG upload & sanitization"
+msgstr "組み込みの SVG アップロードとサニタイズを許可します"
 
 #: includes/I18n.php:277
 msgid "Please ensure your folder name is fewer than 200 characters."
@@ -75,13 +182,45 @@ msgstr "テーマスイッチャーはプレビューのみを目的としてい
 msgid "Theme"
 msgstr "テーマ"
 
+#: includes/I18n.php:274
+msgid "Folder counter"
+msgstr "フォルダーカウンター"
+
+#: includes/I18n.php:273
+msgid "Show breadcrumb"
+msgstr "パンくずを表示"
+
+#: includes/I18n.php:272
+msgid "Each user has his own folders"
+msgstr "各ユーザーは自分のフォルダーを持っています"
+
 #: includes/I18n.php:271
 msgid "General"
 msgstr "一般"
 
+#: includes/I18n.php:270
+msgid "Count files in both parent folder and subfolders"
+msgstr "親フォルダーとサブフォルダーの両方のファイルをカウントする"
+
+#: includes/I18n.php:269
+msgid "Count files in each folder"
+msgstr "各フォルダー内のファイル数を数える"
+
 #: includes/I18n.php:268
 msgid "Count"
 msgstr "カウント"
+
+#: includes/I18n.php:267
+msgid "Assign WPML existing translated media to FileBird folders."
+msgstr "WPMLの既存翻訳メディアを FileBird フォルダーに割り当てます。"
+
+#: includes/I18n.php:266
+msgid "Sync"
+msgstr "同期"
+
+#: includes/I18n.php:265
+msgid "Sync WPML"
+msgstr "WPML の同期"
 
 #: includes/I18n.php:264
 msgid "Confirm"
@@ -98,6 +237,10 @@ msgstr "注意"
 #: includes/I18n.php:261
 msgid "Deactivate license."
 msgstr "ライセンスを無効化。"
+
+#: includes/I18n.php:260
+msgid "Learn more"
+msgstr "さらに詳しく"
 
 #: includes/I18n.php:259
 msgid "If you are on a development site and you want to activate this license later on the production domain, please deactivate it from here first."
@@ -118,6 +261,38 @@ msgstr "FileBird Pro が有効化されました !"
 #: includes/I18n.php:255
 msgid "Congratulations!"
 msgstr "おめでとうございます !"
+
+#: includes/I18n.php:254
+msgid "VIP live chat support"
+msgstr "VIP ライブチャットサポート"
+
+#: includes/I18n.php:253
+msgid "One-time payment"
+msgstr "1回払い"
+
+#: includes/I18n.php:252
+msgid "File count, breadcrumb, folder custom colors, and more"
+msgstr "ファイル数、パンくず、フォルダーカスタムカラーなど"
+
+#: includes/I18n.php:251
+msgid "Folder themes (Windows 11 and Dropbox)"
+msgstr "フォルダーテーマ (Windows 11 and Dropbox)"
+
+#: includes/I18n.php:250
+msgid "Sort files and folders"
+msgstr "ファイルやフォルダの並び替え"
+
+#: includes/I18n.php:249
+msgid "Advanced third-party compatibility"
+msgstr "高度なサードパーティとの互換性"
+
+#: includes/I18n.php:248
+msgid "Download entire folders in ZIP"
+msgstr "フォルダを丸ごと ZIP でダウンロード"
+
+#: includes/I18n.php:247
+msgid "Explore the best of FileBird"
+msgstr "FileBird のベストを探る"
 
 #: includes/I18n.php:246
 msgid "Activate Your License!"
@@ -175,6 +350,56 @@ msgstr ""
 "                </a>\n"
 "                <br />"
 
+#: includes/I18n.php:224
+msgid "Import CSV"
+msgstr "CSV インポート"
+
+#: includes/I18n.php:223
+msgid "The current folder structure will be exported."
+msgstr "現在のフォルダー構造がエクスポートされます。"
+
+#: includes/I18n.php:222
+msgid "Export Now"
+msgstr "今すぐエクスポート"
+
+#: includes/I18n.php:221
+msgid "Export CSV"
+msgstr "CSV をエクスポート"
+
+#: includes/I18n.php:220
+msgid "Import"
+msgstr "インポート"
+
+#: includes/I18n.php:219
+msgid "Contact Support"
+msgstr "サポートに連絡"
+
+#: includes/I18n.php:214
+msgid ""
+"Import categories/folders from other plugins. We import virtual folders, your website will\n"
+"\t\t\tbe safe, don't worry ;)"
+msgstr "他のプラグインからカテゴリー / フォルダーをインポートします。仮想フォルダーをインポートすると、サイトは↵ → → → 安全です、心配しないでください ;)"
+
+#: includes/I18n.php:209
+msgid ""
+"This action will delete all FileBird data, FileBird settings and bring you back to\n"
+"\t\t\tWordPress default media library."
+msgstr ""
+"この操作により、FileBird データと FileBird 設定がすべて削除され、↵\n"
+"→ → → WordPress のデフォルトのメディア ライブラリに戻ります。"
+
+#: includes/I18n.php:208
+msgid "Clear"
+msgstr "クリア"
+
+#: includes/I18n.php:207
+msgid "Clear All Data"
+msgstr "すべてのデータをクリア"
+
+#: includes/I18n.php:206
+msgid "Generate attachment size used in \"Sort by size\" function."
+msgstr "「サイズ順にソート」機能で使用する添付ファイルサイズを生成します。"
+
 #: includes/I18n.php:197
 msgid ""
 "Please see FileBird API for developers\n"
@@ -191,6 +416,28 @@ msgstr ""
 "\t\t\t  rel=\"noreferrer\"\n"
 "\t\t\t>こちら</a>をご覧ください。"
 
+#: includes/I18n.php:196
+msgid "Attachment Size"
+msgstr "添付ファイルサイズ"
+
+#: includes/I18n.php:195
+msgid "Generate"
+msgstr "生成する"
+
+#: includes/I18n.php:194
+msgid "REST API key"
+msgstr "REST API キー"
+
+#: includes/I18n.php:193
+msgid "Import from old version"
+msgstr "旧バージョンからのインポート"
+
+#: includes/I18n.php:188
+msgid ""
+"By running this action, all folders created in version 3.9 & earlier installs will\n"
+"\t\t\tbe imported."
+msgstr "このアクションを実行すると、バージョン 3.9 以前のインストールで作成されたすべてのフォルダーがインポートされます。"
+
 #: includes/I18n.php:187
 msgid "Login with Envato"
 msgstr "Envatoでログイン"
@@ -203,6 +450,14 @@ msgstr "ファイルの配置をリセット"
 msgid "Reset folders arrangement"
 msgstr "フォルダーの配置をリセット"
 
+#: includes/I18n.php:184 blocks/filebird-gallery/build/index.js:1
+msgid "Descending"
+msgstr "降順"
+
+#: includes/I18n.php:183 blocks/filebird-gallery/build/index.js:1
+msgid "Ascending"
+msgstr "昇順"
+
 #: includes/I18n.php:182
 msgid "pages"
 msgstr "ページ"
@@ -210,6 +465,10 @@ msgstr "ページ"
 #: includes/I18n.php:181
 msgid "posts"
 msgstr "投稿"
+
+#: includes/I18n.php:180
+msgid "files"
+msgstr "ファイル"
 
 #: includes/I18n.php:179
 msgid "All Items"
@@ -223,106 +482,6 @@ msgstr "すべての投稿"
 msgid "All Pages"
 msgstr "すべてのページ"
 
-#: includes/I18n.php:163
-msgid "Generated!"
-msgstr "生成されました !"
-
-#: includes/I18n.php:162
-msgid "Generating..."
-msgstr "生成中 ..."
-
-#: includes/I18n.php:137
-msgid "Default"
-msgstr "デフォルト"
-
-#: includes/I18n.php:136
-msgid "Auto sort files by:"
-msgstr "ファイルの自動ソート:"
-
-#: includes/I18n.php:84
-msgid "Title Descending"
-msgstr "タイトル降順"
-
-#: includes/I18n.php:83
-msgid "Title Ascending"
-msgstr "タイトル昇順"
-
-#: includes/I18n.php:82
-msgid "By Title"
-msgstr "タイトル"
-
-#: includes/I18n.php:47
-msgid "Save Changes"
-msgstr "変更の保存"
-
-#: includes/I18n.php:42
-msgid "Unsuccessfully updated!"
-msgstr "更新に失敗しました !"
-
-#: includes/I18n.php:41
-msgid "Successfully updated!"
-msgstr "更新に成功しました !"
-
-#: includes/I18n.php:37
-msgid "Loading..."
-msgstr "読み込み中 ..."
-
-#: includes/I18n.php:32
-msgid "Close"
-msgstr "閉じる"
-
-#: includes/Controller/Import/ImportController.php:112
-msgid "We found you have %1$s categories you created from %2$s plugin. Would you like to import it to %3$s?"
-msgstr "%2$s プラグインから作成した %1$s カテゴリーがあることがわかりました。%3$s にインポートしますか ?"
-
-#: includes/Controller/FolderController.php:110
-msgid "Invalid params"
-msgstr "無効なパラメータ"
-
-#: includes/Classes/Attachment/AttachmentSize.php:22
-msgid "File Size"
-msgstr "ファイルサイズ"
-
-#: includes/Classes/ActivePro.php:51
-msgid "Update failed: Your current FileBird license is being used on another site: {site}. To get this update, please deactivate the license on the other site first."
-msgstr "更新に失敗しました: 現在の FileBird ライセンスは別のサイトで使用されています: {site}。この更新を取得するには、まず他のサイトでライセンスを無効化してください。"
-
-#: includes/Classes/ActivePro.php:50
-msgid "Please try again later!"
-msgstr "後ほど、もう一度お試しください !"
-
-#: includes/Classes/ActivePro.php:49
-msgid "Are you sure to deactivate the current license key? You will not get regular updates or any support for this site."
-msgstr "現在のライセンス キーを無効化してもよろしいですか ? このサイトでは定期的な更新やサポートは受けられません。"
-
-#: includes/Classes/ActivePro.php:48
-msgid "Deactivating license"
-msgstr "ライセンスの無効化"
-
-#: includes/Admin/Settings.php:112
-msgid "Dismiss this notice."
-msgstr "この通知を無視してください。"
-
-#: includes/Admin/Settings.php:110 views/particle/activation_fail.php:10
-msgid "This license was used with <i>%s</i>, please <a href=\"https://1.envato.market/Get-FileBird\" target=\"_blank\"><strong>purchase another license</strong></a>, or <a href=\"https://ninjateam.org/support\" target=\"_blank\"><strong>contact support</strong></a>"
-msgstr "このライセンスは <i>%s</i> で使用されました、<a href=\"https://1.envato.market/Get-FileBird\" target=\"_blank\"><strong>別のライセンスを購入</strong></a>するか、<a href=\"https://ninjateam.org/support\" target=\"_blank\"><strong>サポートに問い合わせ</strong></a>てください"
-
-#: includes/Admin/Settings.php:108 views/particle/activation_fail.php:8
-msgid "It seems you don't have any valid FileBird license. Please <a href=\"https://ninjateam.org/support\" target=\"_blank\"><strong>contact support</strong></a> to get help or <a href=\"https://1.envato.market/Get-FileBird\" target=\"_blank\"><strong>purchase a FileBird license</strong></a>"
-msgstr "有効な FileBird ライセンスをお持ちでないようです。ヘルプが必要な場合は、<a href=\"https://ninjateam.org/support\" target=\"_blank\"><strong>サポートに問い合わせる</strong></a>か、<a href=\"https://1.envato.market/Get-FileBird\" target=\"_blank\"><strong>FileBird ライセンスを購入</strong></a>してください"
-
-#: includes/I18n.php:278
-msgid "Allow built-in SVG upload & sanitization"
-msgstr "組み込みの SVG アップロードとサニタイズを許可します"
-
-#: includes/Classes/Modules/ModuleSvg.php:57
-msgid "This file couldn't be uploaded."
-msgstr "このファイルはアップロードできませんでした。"
-
-#: includes/I18n.php:219
-msgid "Contact Support"
-msgstr "サポートに連絡"
-
 #: includes/I18n.php:176
 msgid "Add Folder"
 msgstr "フォルダーを追加"
@@ -334,26 +493,6 @@ msgstr "フォルダーがありません。フォルダーを追加して簡単
 #: includes/I18n.php:174
 msgid "Add your first folder"
 msgstr "最初のフォルダーを追加"
-
-#: includes/I18n.php:267
-msgid "Assign WPML existing translated media to FileBird folders."
-msgstr "WPMLの既存翻訳メディアを FileBird フォルダーに割り当てます。"
-
-#: includes/I18n.php:266
-msgid "Sync"
-msgstr "同期"
-
-#: includes/I18n.php:265
-msgid "Sync WPML"
-msgstr "WPML の同期"
-
-#: includes/Support/WPML.php:75
-msgid "Done!"
-msgstr "完了!"
-
-#: includes/I18n.php:260
-msgid "Learn more"
-msgstr "さらに詳しく"
 
 #: includes/I18n.php:173
 msgid "This option imports the folder tree created by"
@@ -375,98 +514,6 @@ msgstr "共通フォルダー"
 msgid "All folders"
 msgstr "すべてのフォルダー"
 
-#: includes/I18n.php:161
-msgid "Processing..."
-msgstr "処理中..."
-
-#: includes/I18n.php:206
-msgid "Generate attachment size used in \"Sort by size\" function."
-msgstr "「サイズ順にソート」機能で使用する添付ファイルサイズを生成します。"
-
-#: includes/I18n.php:196
-msgid "Attachment Size"
-msgstr "添付ファイルサイズ"
-
-#: includes/I18n.php:270
-msgid "Count files in both parent folder and subfolders"
-msgstr "親フォルダーとサブフォルダーの両方のファイルをカウントする"
-
-#: includes/I18n.php:269
-msgid "Count files in each folder"
-msgstr "各フォルダー内のファイル数を数える"
-
-#: includes/I18n.php:274
-msgid "Folder counter"
-msgstr "フォルダーカウンター"
-
-#: includes/I18n.php:273
-msgid "Show breadcrumb"
-msgstr "パンくずを表示"
-
-#: includes/I18n.php:254
-msgid "VIP live chat support"
-msgstr "VIP ライブチャットサポート"
-
-#: includes/I18n.php:253
-msgid "One-time payment"
-msgstr "1回払い"
-
-#: includes/I18n.php:252
-msgid "File count, breadcrumb, folder custom colors, and more"
-msgstr "ファイル数、パンくず、フォルダーカスタムカラーなど"
-
-#: includes/I18n.php:251
-msgid "Folder themes (Windows 11 and Dropbox)"
-msgstr "フォルダーテーマ (Windows 11 and Dropbox)"
-
-#: includes/I18n.php:250
-msgid "Sort files and folders"
-msgstr "ファイルやフォルダの並び替え"
-
-#: includes/I18n.php:249
-msgid "Advanced third-party compatibility"
-msgstr "高度なサードパーティとの互換性"
-
-#: includes/I18n.php:248
-msgid "Download entire folders in ZIP"
-msgstr "フォルダを丸ごと ZIP でダウンロード"
-
-#: includes/I18n.php:285
-msgid "Lifetime license"
-msgstr "ライフタイムライセンス"
-
-#: includes/I18n.php:247
-msgid "Explore the best of FileBird"
-msgstr "FileBird のベストを探る"
-
-#: includes/I18n.php:121
-msgid "Upgrade to FileBird Pro"
-msgstr "FileBird Pro にアップグレード"
-
-#: includes/I18n.php:45
-msgid "Change Color"
-msgstr "色の変更"
-
-#: includes/I18n.php:286
-msgid "PRO"
-msgstr "PRO"
-
-#: includes/I18n.php:87
-msgid "Size Descending"
-msgstr "サイズ降順"
-
-#: includes/I18n.php:86
-msgid "Size Ascending"
-msgstr "サイズ昇順"
-
-#: includes/I18n.php:85
-msgid "By Size"
-msgstr "サイズ別"
-
-#: includes/Classes/ActivePro.php:47 includes/I18n.php:168
-msgid "Please activate FileBird license to use this feature."
-msgstr "この機能を使用するには、FileBird のライセンスを有効化してください。"
-
 #: includes/I18n.php:167
 msgid "Successfully imported!"
 msgstr "インポートに成功しました !"
@@ -479,33 +526,17 @@ msgstr "エクスポートに成功しました !"
 msgid "Imported!"
 msgstr "インポートしました !"
 
-#: includes/I18n.php:194
-msgid "REST API key"
-msgstr "REST API キー"
+#: includes/I18n.php:163
+msgid "Generated!"
+msgstr "生成されました !"
 
-#: includes/I18n.php:224
-msgid "Import CSV"
-msgstr "CSV インポート"
+#: includes/I18n.php:162
+msgid "Generating..."
+msgstr "生成中 ..."
 
-#: includes/I18n.php:223
-msgid "The current folder structure will be exported."
-msgstr "現在のフォルダー構造がエクスポートされます。"
-
-#: includes/I18n.php:222
-msgid "Export Now"
-msgstr "今すぐエクスポート"
-
-#: includes/I18n.php:221
-msgid "Export CSV"
-msgstr "CSV をエクスポート"
-
-#: includes/I18n.php:282 views/settings/header.php:20
-msgid "Import/Export"
-msgstr "インポート / エクスポート"
-
-#: includes/I18n.php:281 views/settings/header.php:15
-msgid "Tools"
-msgstr "ツール"
+#: includes/I18n.php:161
+msgid "Processing..."
+msgstr "処理中..."
 
 #: includes/I18n.php:160
 msgid "Flat Tree View"
@@ -514,18 +545,6 @@ msgstr "フラットツリー表示"
 #: includes/I18n.php:159
 msgid "Default Tree View"
 msgstr "初期設定のツリー表示"
-
-#: includes/Controller/SyncController.php:62
-msgid "The uploaded file was not generated by FileBird. Please check again."
-msgstr "アップロードされたファイルは、FileBird によって生成されませんでした。再度ご確認ください。"
-
-#: includes/Classes/Core.php:255
-msgid "Click on the folder name to move this file to another folder"
-msgstr "このファイルを別のフォルダーに移動するには、フォルダー名をクリック"
-
-#: includes/Classes/Core.php:254
-msgid "FileBird folder:"
-msgstr "FileBird のフォルダー:"
 
 #: includes/I18n.php:158
 msgid "You have some folders created by other media plugins. Would you like to import them?"
@@ -539,22 +558,17 @@ msgstr "インポートへ"
 msgid "Import folders to FileBird"
 msgstr "フォルダーを FileBird にインポート"
 
-#: includes/I18n.php:79
-msgid "By File Name"
-msgstr "ファイル名で"
+#: includes/I18n.php:154
+msgid "items"
+msgstr "項目"
 
-#: includes/Fallback.php:13
-msgid "Read more details."
-msgstr "詳細を読む。"
+#: includes/I18n.php:153
+msgid "item"
+msgstr "項目"
 
-#: includes/Fallback.php:11
-msgid "It looks like you have another FileBird version installed, please delete it before activating this new version. All of the settings and data are still preserved."
-msgstr "別のバージョンの FileBird がインストールされているようですが、それを削除してからこの新しいバージョンを有効にしてください。設定やデータはすべて保存されています。"
-
-#: blocks/filebird-gallery/build/render.php:114
-#: blocks/filebird-gallery/build/index.js:1
-msgid "This folder has no images, please choose another one."
-msgstr "このフォルダーには画像がありませんので、他のフォルダを選択してください。"
+#: includes/I18n.php:152
+msgid "Move"
+msgstr "移動"
 
 #: includes/I18n.php:151
 msgid "Total size"
@@ -568,14 +582,6 @@ msgstr "1分未満"
 msgid "Uploaded"
 msgstr "アップロード"
 
-#: includes/I18n.php:184 blocks/filebird-gallery/build/index.js:1
-msgid "Descending"
-msgstr "降順"
-
-#: includes/I18n.php:183 blocks/filebird-gallery/build/index.js:1
-msgid "Ascending"
-msgstr "昇順"
-
 #: includes/I18n.php:148
 msgid "Expand"
 msgstr "拡大"
@@ -584,17 +590,17 @@ msgstr "拡大"
 msgid "Collapse"
 msgstr "崩壊"
 
-#: includes/I18n.php:40
-msgid "Unsuccessfully moved"
-msgstr "不成功に終わった移動"
+#: includes/I18n.php:146
+msgid "Turn off for 7 days"
+msgstr "7日間のオフ"
 
 #: includes/I18n.php:145
 msgid "View details."
 msgstr "詳細を見る。"
 
-#: includes/I18n.php:146
-msgid "Turn off for 7 days"
-msgstr "7日間のオフ"
+#: includes/I18n.php:144
+msgid "Go Pro"
+msgstr "プロ版へ"
 
 #: includes/I18n.php:143
 msgid "You're using a third party plugin, which is supported in FileBird PRO. Please upgrade to browse files faster and get more done."
@@ -612,35 +618,6 @@ msgstr "現在お使いのページビルダー / プラグインで FileBird �
 msgid "Unlock new features"
 msgstr "新機能のアンロック"
 
-#: includes/I18n.php:38
-msgid "Generating download link..."
-msgstr "ダウンロードリンクの生成..."
-
-#: includes/I18n.php:36
-msgid "Download (Pro version)"
-msgstr "ダウンロード (プロ版)"
-
-#: includes/I18n.php:35
-msgid "Download"
-msgstr "ダウンロード"
-
-#: includes/Support/DocumentGallery.php:26
-msgid "This folder ID does not exist, please check again."
-msgstr "このフォルダ ID は存在しませんので、もう一度確認してください。"
-
-#: includes/Controller/FolderController.php:66
-#: includes/Controller/FolderController.php:90
-msgid "A folder with this name already exists. Please choose another one."
-msgstr "この名前のフォルダはすでに存在します。別のものを選んでください。"
-
-#: includes/I18n.php:62
-msgid "Previous folder selected"
-msgstr "前のフォルダを選択"
-
-#: includes/Controller/Api.php:68 includes/Controller/Api.php:99
-msgid "folder_id is missing."
-msgstr "folder_id がありません。"
-
 #: includes/I18n.php:139
 msgid "Failed to save settings. Please try again!"
 msgstr "設定の保存に失敗しました。もう一度試してみてください !"
@@ -648,6 +625,14 @@ msgstr "設定の保存に失敗しました。もう一度試してみてくだ
 #: includes/I18n.php:138
 msgid "Settings saved"
 msgstr "設定を保存しました"
+
+#: includes/I18n.php:137
+msgid "Default"
+msgstr "デフォルト"
+
+#: includes/I18n.php:136
+msgid "Auto sort files by:"
+msgstr "ファイルの自動ソート:"
 
 #: includes/I18n.php:135
 msgid "Select a default startup folder:"
@@ -665,52 +650,13 @@ msgstr "パーソナルアクセストークンを入力するか、取得して
 msgid "Please enter your Purchase Code."
 msgstr "購入コードを入力してください。"
 
-#: includes/Support/ACF/acf-field-filebird-v4.php:20
-#: includes/Support/ACF/acf-field-filebird-v5.php:19
-msgid "FileBird Folder"
-msgstr "FileBird フォルダー"
-
-#: includes/Controller/Api.php:113
-msgid "Required fields are missing."
-msgstr "必須項目がありません。"
-
 #: includes/I18n.php:129
 msgid "Import failed. Please try again or <a href=\"https://ninjateam.org/support\" target=\"_blank\">contact our support</a>."
 msgstr "インポートに失敗しました。再度お試しいただくか、<a href=\"https://ninjateam.org/support\" target=\"_blank\">サポートにお問い合わせください</a>。"
 
-#: includes/I18n.php:188
-msgid ""
-"By running this action, all folders created in version 3.9 & earlier installs will\n"
-"\t\t\tbe imported."
-msgstr "このアクションを実行すると、バージョン 3.9 以前のインストールで作成されたすべてのフォルダーがインポートされます。"
-
-#: includes/I18n.php:124
-msgid "Go To Media"
-msgstr "メディアへ"
-
-#: includes/I18n.php:65
-msgid "Are you sure you want to delete this folder? Those files will be moved to <strong>Uncategorized</strong> folder."
-msgstr "このフォルダーを削除してもよろしいですか ? これらのファイルは<strong>未分類</strong>フォルダーに移動されます。"
-
-#: includes/I18n.php:55
-msgid "You are editing another folder! Please complete the task first!"
-msgstr "別のフォルダを編集しています ! まずはタスクを完了させてください ! "
-
-#: includes/Classes/Convert.php:133
-msgid "Successfully cleared!"
-msgstr "無事クリアできました !"
-
-#: includes/Classes/Convert.php:117
-msgid "Successfully wiped."
-msgstr "正常に消去されました。"
-
-#: views/notices/html-notice-update-database.php:23
-msgid "You are using the new FileBird 4. Please update database to view your folders correctly."
-msgstr "新しい FileBird 4 を使用しています。フォルダーを正しく表示するに、データベースを更新してください。"
-
-#: includes/Controller/FolderController.php:289
-msgid "Please choose folder"
-msgstr "フォルダーを選択してください"
+#: includes/I18n.php:128
+msgid "Update"
+msgstr "更新"
 
 #: includes/I18n.php:127
 msgid "Import now"
@@ -724,9 +670,9 @@ msgstr "新しい FileBird 4を使用しています。フォルダーを正し�
 msgid "FileBird 4 Update Required"
 msgstr "FileBird 4の更新が必要です"
 
-#: views/notices/html-notice-update-database.php:29
-msgid "Update now"
-msgstr "今すぐ更新"
+#: includes/I18n.php:124
+msgid "Go To Media"
+msgstr "メディアへ"
 
 #: includes/I18n.php:123
 msgid "Congratulations. Successfully imported!"
@@ -736,41 +682,9 @@ msgstr "おめでとうございます。インポートに成功しました !"
 msgid "Success."
 msgstr "成功しました。"
 
-#: includes/I18n.php:88
-msgid "Skip & Deactivate"
-msgstr "スキップして無効化"
-
-#: includes/Controller/SyncController.php:152
-msgid "folders"
-msgstr "フォルダー"
-
-#: includes/Classes/Core.php:282
-msgid "Choose folder: "
-msgstr "フォルダーを選択: "
-
-#: includes/I18n.php:195
-msgid "Generate"
-msgstr "生成する"
-
-#: includes/I18n.php:208
-msgid "Clear"
-msgstr "クリア"
-
-#: includes/I18n.php:209
-msgid ""
-"This action will delete all FileBird data, FileBird settings and bring you back to\n"
-"\t\t\tWordPress default media library."
-msgstr ""
-"この操作により、FileBird データと FileBird 設定がすべて削除され、↵\n"
-"→ → → WordPress のデフォルトのメディア ライブラリに戻ります。"
-
-#: includes/I18n.php:207
-msgid "Clear All Data"
-msgstr "すべてのデータをクリア"
-
-#: includes/I18n.php:193
-msgid "Import from old version"
-msgstr "旧バージョンからのインポート"
+#: includes/I18n.php:121
+msgid "Upgrade to FileBird Pro"
+msgstr "FileBird Pro にアップグレード"
 
 #: includes/I18n.php:120
 msgid "Including Divi, Fusion, Thrive Architect, WPBakery..."
@@ -800,6 +714,10 @@ msgstr ""
 "          <li>30日間の返金保証</li>\n"
 "        </ul>"
 
+#: includes/I18n.php:106
+msgid "Folder Limit Reached"
+msgstr "フォルダー数の上限に達しました"
+
 #: includes/I18n.php:105
 msgid "Sorry to see you walk away, please share why you want to deactivate FileBird?"
 msgstr "去っていくのに申し訳ありませんが、FileBird を無効化する理由を教えてください。"
@@ -816,13 +734,29 @@ msgstr "あなたのフィードバックをお聞かせください ..."
 msgid "Please <a target=\"_blank\" href=\"https://ninjateam.org/support/\">ask for support here</a>, we will fix it for you."
 msgstr "<a target=\"_blank\" href=\"https://ninjateam.org/support/\">ここでサポートを依頼</a>してください。修正します。"
 
+#: includes/I18n.php:101
+msgid "Please read FileBird documentation <a target=\"_blank\" href=\"https://ninjateam.gitbook.io/filebird/\">here</a> or <a target=\"_blank\" href=\"https://ninjateam.org/support/\">chat with us</a> if you need help"
+msgstr "ヘルプが必要な場合は、FileBird のドキュメント<a target=\"_blank\" href=\"https://ninjateam.gitbook.io/filebird/\">here</a>をお読みください、または<a target=\"_blank\" href=\"https://ninjateam.org/support/\">私たちとチャット</a>をしてください"
+
+#: includes/I18n.php:100
+msgid "Please tell us which one"
+msgstr "どれか教えてください"
+
 #: includes/I18n.php:99
 msgid "Which features please?"
 msgstr "どの機能をお願いしますか ?"
 
+#: includes/I18n.php:97
+msgid "Other"
+msgstr "その他"
+
 #: includes/I18n.php:96
 msgid "This is just temporary, I will use it again."
 msgstr "これは一時的なものなので、また利用させていただきます。"
+
+#: includes/I18n.php:95
+msgid "Don't know how to use it."
+msgstr "使い方がわからない。"
 
 #: includes/I18n.php:94
 msgid "Found another plugin that works better."
@@ -844,6 +778,34 @@ msgstr "どうもありがとう !"
 msgid "Deactivate"
 msgstr "無効化"
 
+#: includes/I18n.php:88
+msgid "Skip & Deactivate"
+msgstr "スキップして無効化"
+
+#: includes/I18n.php:87
+msgid "Size Descending"
+msgstr "サイズ降順"
+
+#: includes/I18n.php:86
+msgid "Size Ascending"
+msgstr "サイズ昇順"
+
+#: includes/I18n.php:85
+msgid "By Size"
+msgstr "サイズ別"
+
+#: includes/I18n.php:84
+msgid "Title Descending"
+msgstr "タイトル降順"
+
+#: includes/I18n.php:83
+msgid "Title Ascending"
+msgstr "タイトル昇順"
+
+#: includes/I18n.php:82
+msgid "By Title"
+msgstr "タイトル"
+
 #: includes/I18n.php:81
 msgid "Author Descending"
 msgstr "投稿者降順"
@@ -851,6 +813,10 @@ msgstr "投稿者降順"
 #: includes/I18n.php:80
 msgid "Author Ascending"
 msgstr "投稿者昇順"
+
+#: includes/I18n.php:79
+msgid "By File Name"
+msgstr "ファイル名で"
 
 #: includes/I18n.php:78
 msgid "By Author"
@@ -904,6 +870,22 @@ msgstr "降順ソート"
 msgid "Sort Ascending"
 msgstr "昇順ソート"
 
+#: includes/I18n.php:65
+msgid "Are you sure you want to delete this folder? Those files will be moved to <strong>Uncategorized</strong> folder."
+msgstr "このフォルダーを削除してもよろしいですか ? これらのファイルは<strong>未分類</strong>フォルダーに移動されます。"
+
+#: includes/I18n.php:64
+msgid "Rename"
+msgstr "名前を変更"
+
+#: includes/I18n.php:62
+msgid "Previous folder selected"
+msgstr "前のフォルダを選択"
+
+#: includes/I18n.php:60
+msgid "All Files"
+msgstr "すべてのファイル"
+
 #: includes/I18n.php:59
 msgid "Bulk Select"
 msgstr "一括選択"
@@ -920,9 +902,17 @@ msgstr "フォルダーの削除"
 msgid "Sort Folders"
 msgstr "フォルダーのソート"
 
+#: includes/I18n.php:55
+msgid "You are editing another folder! Please complete the task first!"
+msgstr "別のフォルダを編集しています ! まずはタスクを完了させてください ! "
+
 #: includes/I18n.php:54
 msgid "Those files will be moved to <strong>Uncategorized</strong> folder."
 msgstr "これらのファイルは、<strong>未分類</strong>フォルダーに移動されます。"
+
+#: includes/I18n.php:53
+msgid "Are you sure?"
+msgstr "本当に実行しますか ?"
 
 #: includes/I18n.php:52
 msgid "Are you sure you want to delete"
@@ -936,9 +926,21 @@ msgstr "フォルダー名を入力してください ..."
 msgid "Folder name..."
 msgstr "フォルダー 名..."
 
+#: includes/I18n.php:48
+msgid "Folder"
+msgstr "フォルダー"
+
+#: includes/I18n.php:47
+msgid "Save Changes"
+msgstr "変更の保存"
+
 #: includes/I18n.php:46
 msgid "Save"
 msgstr "保存"
+
+#: includes/I18n.php:45
+msgid "Change Color"
+msgstr "色の変更"
 
 #: includes/I18n.php:44
 msgid "Can't delete!"
@@ -948,9 +950,37 @@ msgstr "削除できません !"
 msgid "Successfully deleted!"
 msgstr "正常に削除されました !"
 
+#: includes/I18n.php:42
+msgid "Unsuccessfully updated!"
+msgstr "更新に失敗しました !"
+
+#: includes/I18n.php:41
+msgid "Successfully updated!"
+msgstr "更新に成功しました !"
+
+#: includes/I18n.php:40
+msgid "Unsuccessfully moved"
+msgstr "不成功に終わった移動"
+
 #: includes/I18n.php:39
 msgid "Successfully moved"
 msgstr "正常に移動しました"
+
+#: includes/I18n.php:38
+msgid "Generating download link..."
+msgstr "ダウンロードリンクの生成..."
+
+#: includes/I18n.php:37
+msgid "Loading..."
+msgstr "読み込み中 ..."
+
+#: includes/I18n.php:36
+msgid "Download (Pro version)"
+msgstr "ダウンロード (プロ版)"
+
+#: includes/I18n.php:35
+msgid "Download"
+msgstr "ダウンロード"
 
 #: includes/I18n.php:34
 msgid "Paste"
@@ -960,149 +990,219 @@ msgstr "貼り付け"
 msgid "Cut"
 msgstr "カット"
 
+#: includes/I18n.php:32
+msgid "Close"
+msgstr "閉じる"
+
+#: includes/I18n.php:31
+msgid "Cancel"
+msgstr "キャンセル"
+
 #: includes/I18n.php:30
 msgid "Ok"
 msgstr "OK"
 
-#: includes/Admin/Settings.php:133
-msgid "Documentation"
-msgstr "ドキュメント"
+#: includes/I18n.php:29 includes/I18n.php:50
+msgid "Folders"
+msgstr "フォルダー"
 
-#: includes/Classes/Convert.php:139 includes/I18n.php:165
-msgid "Please try again."
-msgstr "もう一度お試しください。"
+#: includes/I18n.php:28
+msgid "Delete"
+msgstr "削除 "
 
-#: includes/Classes/Convert.php:99
-msgid "validation failed"
-msgstr "検証失敗"
+#: includes/I18n.php:27
+msgid "New Folder"
+msgstr "新規フォルダー"
 
-#: includes/Classes/Convert.php:97
-msgid "success"
-msgstr "成功"
+#: includes/I18n.php:26
+msgid "No media files found."
+msgstr "メディアファイルが見つかりませんでした。"
 
-#: includes/I18n.php:128
-msgid "Update"
-msgstr "更新"
+#: includes/Fallback.php:13
+msgid "Read more details."
+msgstr "詳細を読む。"
 
-#: includes/Controller/Api.php:21
-msgid "Invalid action"
-msgstr "無効な操作"
+#: includes/Fallback.php:11
+msgid "It looks like you have another FileBird version installed, please delete it before activating this new version. All of the settings and data are still preserved."
+msgstr "別のバージョンの FileBird がインストールされているようですが、それを削除してからこの新しいバージョンを有効にしてください。設定やデータはすべて保存されています。"
 
-#: includes/Controller/FolderController.php:250
-msgid "Can't delete folder, please try again later"
-msgstr "フォルダーを削除できません。しばらくしてからもう一度お試しください"
+#: includes/Controller/SyncController.php:152
+msgid "folders"
+msgstr "フォルダー"
 
-#: includes/Controller/Api.php:134 includes/Controller/FolderController.php:69
-#: includes/Controller/FolderController.php:93
-#: includes/Controller/FolderController.php:274
-msgid "Validation failed"
-msgstr "検証失敗"
-
-#: includes/Classes/Core.php:156 includes/Model/Folder.php:41
-msgid "All Folders"
-msgstr "すべてのフォルダー"
-
-#. Plugin URI of the plugin
-#: filebird.php
-msgid "https://ninjateam.org/wordpress-media-library-folders/"
-msgstr "https://ninjateam.org/wordpress-media-library-folders/"
-
-#: includes/I18n.php:101
-msgid "Please read FileBird documentation <a target=\"_blank\" href=\"https://ninjateam.gitbook.io/filebird/\">here</a> or <a target=\"_blank\" href=\"https://ninjateam.org/support/\">chat with us</a> if you need help"
-msgstr "ヘルプが必要な場合は、FileBird のドキュメント<a target=\"_blank\" href=\"https://ninjateam.gitbook.io/filebird/\">here</a>をお読みください、または<a target=\"_blank\" href=\"https://ninjateam.org/support/\">私たちとチャット</a>をしてください"
-
-#: includes/Classes/Convert.php:161
-msgid "Success"
-msgstr "成功"
+#: includes/Controller/SyncController.php:62
+msgid "The uploaded file was not generated by FileBird. Please check again."
+msgstr "アップロードされたファイルは、FileBird によって生成されませんでした。再度ご確認ください。"
 
 #: includes/Controller/Import/Methods/ImportMethod.php:53
 #: includes/Controller/SyncController.php:74
 msgid "Congratulations! We imported successfully %d folders into <strong>FileBird.</strong>"
 msgstr "おめでとうございます ! 正常に %d フォルダーを <strong>FileBird</strong> にインポートできました。"
 
-#: includes/Classes/Review.php:72 includes/I18n.php:157
+#: includes/Controller/Import/ImportController.php:112
+msgid "We found you have %1$s categories you created from %2$s plugin. Would you like to import it to %3$s?"
+msgstr "%2$s プラグインから作成した %1$s カテゴリーがあることがわかりました。%3$s にインポートしますか ?"
+
+#: includes/Controller/FolderController.php:334
+msgid "Please choose folder"
+msgstr "フォルダーを選択してください"
+
+#: includes/Controller/FolderController.php:290
+msgid "Can't delete folder, please try again later"
+msgstr "フォルダーを削除できません。しばらくしてからもう一度お試しください"
+
+#: includes/Controller/FolderController.php:110
+msgid "Invalid params"
+msgstr "無効なパラメータ"
+
+#: includes/Controller/FolderController.php:66
+#: includes/Controller/FolderController.php:90
+msgid "A folder with this name already exists. Please choose another one."
+msgstr "この名前のフォルダはすでに存在します。別のものを選んでください。"
+
+#: includes/Controller/Api.php:134 includes/Controller/FolderController.php:69
+#: includes/Controller/FolderController.php:93
+#: includes/Controller/FolderController.php:314
+msgid "Validation failed"
+msgstr "検証失敗"
+
+#: includes/Controller/Api.php:113
+msgid "Required fields are missing."
+msgstr "必須項目がありません。"
+
+#: includes/Controller/Api.php:68 includes/Controller/Api.php:99
+msgid "folder_id is missing."
+msgstr "folder_id がありません。"
+
+#: includes/Controller/Api.php:21
+msgid "Invalid action"
+msgstr "無効な操作"
+
+#: includes/Classes/Review.php:79 includes/I18n.php:157
 msgid "No, thanks"
 msgstr "いいえ、結構です"
 
-#: includes/Classes/Review.php:71
+#: includes/Classes/Review.php:78
 msgid "Later"
 msgstr "後で評価する"
 
-#: includes/Classes/Review.php:70
+#: includes/Classes/Review.php:77
 msgid "Rate now"
 msgstr "今すぐ評価する"
 
-#: includes/Classes/Review.php:66
+#: includes/Classes/Review.php:73
 msgid "We will be forever grateful. Thank you in advance ;)"
 msgstr "いつまでも感謝しています。どうぞよろしくお願いします"
 
-#: includes/Classes/Review.php:63
+#: includes/Classes/Review.php:70
 msgid "Thank you for choosing FileBird. We hope you love it. Could you take a couple of seconds posting a nice review to share your happy experience?"
 msgstr "FileBird をお選びいただきありがとうございます。お気に召していただければ幸いです。あなたの幸せな体験を共有するために、素敵なレビューを投稿していただけますか ?"
 
-#: includes/Classes/Review.php:61
+#: includes/Classes/Review.php:68
 msgid "Give FileBird a review"
 msgstr "FileBird にレビューをお願いします"
 
-#: includes/I18n.php:214
-msgid ""
-"Import categories/folders from other plugins. We import virtual folders, your website will\n"
-"\t\t\tbe safe, don't worry ;)"
-msgstr "他のプラグインからカテゴリー / フォルダーをインポートします。仮想フォルダーをインポートすると、サイトは↵ → → → 安全です、心配しないでください ;)"
+#: includes/Classes/Modules/ModuleSvg.php:57
+msgid "This file couldn't be uploaded."
+msgstr "このファイルはアップロードできませんでした。"
 
-#: includes/I18n.php:272
-msgid "Each user has his own folders"
-msgstr "各ユーザーは自分のフォルダーを持っています"
+#: includes/Classes/Core.php:292
+msgid "Choose folder: "
+msgstr "フォルダーを選択: "
 
-#: includes/I18n.php:220
-msgid "Import"
-msgstr "インポート"
+#: includes/Classes/Core.php:265
+msgid "Click on the folder name to move this file to another folder"
+msgstr "このファイルを別のフォルダーに移動するには、フォルダー名をクリック"
 
-#: includes/Admin/Settings.php:144 includes/I18n.php:133
+#: includes/Classes/Core.php:264
+msgid "FileBird folder:"
+msgstr "FileBird のフォルダー:"
+
+#: includes/Classes/Core.php:166 includes/Classes/Core.php:256
+#: includes/I18n.php:61 includes/Model/Folder.php:59
+msgid "Uncategorized"
+msgstr "未分類"
+
+#: includes/Classes/Core.php:162 includes/Model/Folder.php:55
+msgid "All Folders"
+msgstr "すべてのフォルダー"
+
+#: includes/Classes/Convert.php:182
+msgid "Success"
+msgstr "成功"
+
+#: includes/Classes/Convert.php:160 includes/I18n.php:165
+msgid "Please try again."
+msgstr "もう一度お試しください。"
+
+#: includes/Classes/Convert.php:154
+msgid "Successfully cleared!"
+msgstr "無事クリアできました !"
+
+#: includes/Classes/Convert.php:131
+msgid "Successfully wiped."
+msgstr "正常に消去されました。"
+
+#: includes/Classes/Convert.php:106
+msgid "validation failed"
+msgstr "検証失敗"
+
+#: includes/Classes/Convert.php:104
+msgid "success"
+msgstr "成功"
+
+#: includes/Classes/Attachment/AttachmentSize.php:22
+msgid "File Size"
+msgstr "ファイルサイズ"
+
+#: includes/Classes/ActivePro.php:51
+msgid "Update failed: Your current FileBird license is being used on another site: {site}. To get this update, please deactivate the license on the other site first."
+msgstr "更新に失敗しました: 現在の FileBird ライセンスは別のサイトで使用されています: {site}。この更新を取得するには、まず他のサイトでライセンスを無効化してください。"
+
+#: includes/Classes/ActivePro.php:50
+msgid "Please try again later!"
+msgstr "後ほど、もう一度お試しください !"
+
+#: includes/Classes/ActivePro.php:49
+msgid "Are you sure to deactivate the current license key? You will not get regular updates or any support for this site."
+msgstr "現在のライセンス キーを無効化してもよろしいですか ? このサイトでは定期的な更新やサポートは受けられません。"
+
+#: includes/Classes/ActivePro.php:48
+msgid "Deactivating license"
+msgstr "ライセンスの無効化"
+
+#: includes/Classes/ActivePro.php:47 includes/I18n.php:168
+msgid "Please activate FileBird license to use this feature."
+msgstr "この機能を使用するには、FileBird のライセンスを有効化してください。"
+
+#: includes/Admin/Settings.php:145 includes/I18n.php:133
 #: views/settings/header.php:10
 msgid "Settings"
 msgstr "設定"
 
-#: includes/Admin/Settings.php:44 includes/Admin/Settings.php:45
-msgid "FileBird"
-msgstr "FileBird"
+#: includes/Admin/Settings.php:134
+msgid "Documentation"
+msgstr "ドキュメント"
 
-#: includes/Admin/Settings.php:119 includes/I18n.php:134
+#: includes/Admin/Settings.php:120 includes/I18n.php:134
 msgid "FileBird Settings"
 msgstr "FileBird 設定"
 
-#: includes/I18n.php:144
-msgid "Go Pro"
-msgstr "プロ版へ"
+#: includes/Admin/Settings.php:113
+msgid "Dismiss this notice."
+msgstr "この通知を無視してください。"
 
-#: includes/I18n.php:97
-msgid "Other"
-msgstr "その他"
+#: includes/Admin/Settings.php:111 views/particle/activation_fail.php:10
+msgid "This license was used with <i>%s</i>, please <a href=\"https://1.envato.market/Get-FileBird\" target=\"_blank\"><strong>purchase another license</strong></a>, or <a href=\"https://ninjateam.org/support\" target=\"_blank\"><strong>contact support</strong></a>"
+msgstr "このライセンスは <i>%s</i> で使用されました、<a href=\"https://1.envato.market/Get-FileBird\" target=\"_blank\"><strong>別のライセンスを購入</strong></a>するか、<a href=\"https://ninjateam.org/support\" target=\"_blank\"><strong>サポートに問い合わせ</strong></a>てください"
 
-#: includes/I18n.php:95
-msgid "Don't know how to use it."
-msgstr "使い方がわからない。"
+#: includes/Admin/Settings.php:109 views/particle/activation_fail.php:8
+msgid "It seems you don't have any valid FileBird license. Please <a href=\"https://ninjateam.org/support\" target=\"_blank\"><strong>contact support</strong></a> to get help or <a href=\"https://1.envato.market/Get-FileBird\" target=\"_blank\"><strong>purchase a FileBird license</strong></a>"
+msgstr "有効な FileBird ライセンスをお持ちでないようです。ヘルプが必要な場合は、<a href=\"https://ninjateam.org/support\" target=\"_blank\"><strong>サポートに問い合わせる</strong></a>か、<a href=\"https://1.envato.market/Get-FileBird\" target=\"_blank\"><strong>FileBird ライセンスを購入</strong></a>してください"
 
-#: includes/I18n.php:100
-msgid "Please tell us which one"
-msgstr "どれか教えてください"
-
-#: views/notices/html-notice-first-folder.php:13
-msgid "Get Started"
-msgstr "始めてみよう"
-
-#: views/notices/html-notice-first-folder.php:11
-msgid "Create your first folder for media library now."
-msgstr "さあメディアライブラリに最初のフォルダーを作成してください。"
-
-#: includes/I18n.php:48
-msgid "Folder"
-msgstr "フォルダー"
-
-#. Description of the plugin
-#: filebird.php
-msgid "Organize thousands of WordPress media files into folders/ categories at ease."
-msgstr "何千もの WordPress メディアファイルをフォルダー / カテゴリーに簡単に整理します。"
+#: includes/Admin/Settings.php:44 includes/Admin/Settings.php:45
+msgid "FileBird"
+msgstr "FileBird"
 
 #. Author URI of the plugin
 #: filebird.php
@@ -1114,64 +1214,17 @@ msgstr "https://ninjateam.org"
 msgid "Ninja Team"
 msgstr "Ninja Team"
 
+#. Description of the plugin
+#: filebird.php
+msgid "Organize thousands of WordPress media files into folders/ categories at ease."
+msgstr "何千もの WordPress メディアファイルをフォルダー / カテゴリーに簡単に整理します。"
+
+#. Plugin URI of the plugin
+#: filebird.php
+msgid "https://ninjateam.org/wordpress-media-library-folders/"
+msgstr "https://ninjateam.org/wordpress-media-library-folders/"
+
 #. Plugin Name of the plugin
 #: filebird.php
 msgid "FileBird Lite"
 msgstr "FileBird Lite"
-
-#: includes/I18n.php:31
-msgid "Cancel"
-msgstr "キャンセル"
-
-#: includes/I18n.php:180
-msgid "files"
-msgstr "ファイル"
-
-#: includes/I18n.php:152
-msgid "Move"
-msgstr "移動"
-
-#: includes/I18n.php:53
-msgid "Are you sure?"
-msgstr "本当に実行しますか ?"
-
-#: includes/I18n.php:106
-msgid "Folder Limit Reached"
-msgstr "フォルダー数の上限に達しました"
-
-#: includes/Classes/Core.php:160 includes/Classes/Core.php:246
-#: includes/I18n.php:61 includes/Model/Folder.php:45
-msgid "Uncategorized"
-msgstr "未分類"
-
-#: includes/I18n.php:60
-msgid "All Files"
-msgstr "すべてのファイル"
-
-#: includes/I18n.php:28
-msgid "Delete"
-msgstr "削除 "
-
-#: includes/I18n.php:64
-msgid "Rename"
-msgstr "名前を変更"
-
-#: includes/I18n.php:27
-msgid "New Folder"
-msgstr "新規フォルダー"
-
-#: includes/I18n.php:29 includes/I18n.php:50
-msgid "Folders"
-msgstr "フォルダー"
-
-#: includes/I18n.php:154
-msgid "items"
-msgstr "項目"
-
-#: includes/I18n.php:153
-msgid "item"
-msgstr "項目"
-
-#: includes/I18n.php:26
-msgid "No media files found."
-msgstr "メディアファイルが見つかりませんでした。"
